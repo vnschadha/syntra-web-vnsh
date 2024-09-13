@@ -1512,7 +1512,7 @@ a:hover {
 
 
 
-/* .social-icon li a {
+.social-icons li a {
   height: 45px;
   width: 45px;
   background: #fff;
@@ -1520,7 +1520,7 @@ a:hover {
   line-height: 45px;
   display: block;
   text-align: center;
-} */
+}
 
 .client-logo-slider img {
   transition: .2s ease;
@@ -4676,4 +4676,96 @@ input::placeholder {
   .heading-pra.pragrp.space-pra {
     margin-bottom: 20%;
   }
+}
+
+
+.social-icons li a {
+  height: 50px;
+  width: 50px;
+  background:transparent;
+  border-radius: 5px;
+  line-height: 45px;
+  display: block;
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  margin-right: 5%;
+  list-style-type: none;
+  font-size: 2rem;
+ 
+
+}
+
+.social-icons .icons {
+  padding: 1rem;
+}
+
+.fab {
+  font-size: 5rem;
+}
+.icons-color {
+  color: #000;
+}
+
+/* transition for social icon hover animation */
+.fa-facebook,
+.fa-x-twitter,
+.fa-youtube,
+.fa-instagram,
+.fa-github,
+.fa-pinterest {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* social media icons hover color */
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #1877f2;
+  transform: scale(1.1);
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus {
+  color: #1da1f2;
+  transform: scale(1.1);
+}
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+  color: #df2426;
+  transform: scale(1.1);
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #bd22a2;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-x-twitter:hover,
+.fa-x-twitter:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-pinterest:hover,
+.fa-pinterest:focus {
+  color: #ff0026;
 }

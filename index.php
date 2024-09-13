@@ -37,7 +37,7 @@
               <span class="span-line" style="font-weight:bold ;"> With
                 Syntra</span> <br> <strong> An <span style="color: #ff33a3;font-family:'Poppins';font-weight: 400; ">
                   Advertising </span> & <span style="color: #ff33a3;font-family:'Poppins'; font-weight: 400;">Digital
-                  Solutions </span> Company</strong></strong>
+                  Solutions </span> Company</strong>
             </p>
 
             <a href="#service" class="btn btn-secondary btn-lg ml-5 mt-3" data-aos="fade-down">Discover Our Services</a>
@@ -83,8 +83,8 @@
 <!-- deslzz -->
 <div class="video-head responsive-section" id="about">
   <video class="headVideo" autoplay muted loop playsinline>
-      
-        <source src="images/syntra-web-video/START-LOGO-ALPHA-NEW" type="video/webm">
+
+    <source src="images/syntra-web-video/START-LOGO-ALPHA-NEW" type="video/webm">
     <source src="images/syntra-web-video/START LOGO ANI_NEW TAG_16-9.mp4" type="video/mp4">
 
   </video>
@@ -99,7 +99,12 @@
         </div>
         <div class="col-md-6 about-head" style="margin-top: -14%;" id="about">
           <h2 class=" upper-heading section-title heading-color fs-30" data-aos="fade-down">About Us</h2>
-          <p class="heading-pra pragrp space-pra" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">We are a global advertisement and digital solutions company dedicated to driving transformative results for our clients worldwide. We specialize in crafting innovative and creative solutions, leveraging our expertise in software development, UI/UX designing, video commercials, 2D and 3D animations, fresh appealing graphics, web and mobile apps, backend APIs, and more. We know how to elevate a brand with our high end professional outputs and have a record of making our clients extremely happy.
+          <p class="heading-pra pragrp space-pra" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">We are a
+            global advertisement and digital solutions company dedicated to driving transformative results for our
+            clients worldwide. We specialize in crafting innovative and creative solutions, leveraging our expertise in
+            software development, UI/UX designing, video commercials, 2D and 3D animations, fresh appealing graphics,
+            web and mobile apps, backend APIs, and more. We know how to elevate a brand with our high end professional
+            outputs and have a record of making our clients extremely happy.
           </p>
         </div>
       </div>
@@ -182,7 +187,12 @@
       </div>
       <div class="col-md-5">
         <h2 class=" upper-heading section-title heading-color fs-30" data-aos="fade-down">About Us</h2>
-        <p class="heading-pra  pragrp mb-5" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">We are a global advertisement and digital solutions company dedicated to driving transformative results for our clients worldwide. We specialize in crafting innovative and creative solutions, leveraging our expertise in software development, UI/UX designing, video commercials, 2D and 3D animations, fresh appealing graphics, web and mobile apps, backend APIs, and more. We know how to elevate a brand with our high end professional outputs and have a record of making our clients extremely happy.
+        <p class="heading-pra  pragrp mb-5" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">We are a global
+          advertisement and digital solutions company dedicated to driving transformative results for our clients
+          worldwide. We specialize in crafting innovative and creative solutions, leveraging our expertise in software
+          development, UI/UX designing, video commercials, 2D and 3D animations, fresh appealing graphics, web and
+          mobile apps, backend APIs, and more. We know how to elevate a brand with our high end professional outputs and
+          have a record of making our clients extremely happy.
         </p>
       </div>
     </div>
@@ -529,7 +539,7 @@
         </div>
         <div class="col-lg-6 head-div-liner">
           <!-- <div class="content"> -->
-          <h2 class="upper-heading  section-title heading-color fs-30 " data-aos="fade-down">Why Choose SYNTRA?</h2>
+          <h2 class="upper-heading  section-title heading-color  " data-aos="fade-down">Why Choose SYNTRA?</h2>
           <p class="heading-pra pragrp " data-aos="fade-up" style="font-family:'Nunito', sans-serif;">At SYNTRA, we
             understand the intricacies of luxury branding and the importance of maintaining a sophisticated image. Our
             Clients vary from warehousing, mining, oil and gas companies to analytics consulting firms, investment
@@ -540,7 +550,7 @@
             Our team of experts is dedicated to providing high-quality, innovative solutions tailored to your brand’s
             unique needs. We take pride in our collaborative approach, working closely with you to ensure your vision is
             realized and your goals are achieved. Join us on this journey of creative excellence. <strong>Let SYNTRA
-              help elevate your brand like never
+               elevate your brand like never
               before.</strong>
           </p>
         </div>
@@ -687,14 +697,49 @@
         </h2>
         <div class="client-slider">
           <div class="slide"><img src="images/clients-logo/OSIA OSIA LOGO BLACK.png" alt="Osia-Osia"></div>
-          <div class="slide mt-3" style="width:20px;"><img src="images/ZEZE-LOGO-02.png" alt="ZEZE"></div>
+          <div class="slide"><img src="images/clients-logo/LOGO_00001.png" alt="Osia-Osia"></div>
+          <div class="slide"><img src="images/clients-logo/motorola-logo.png" alt="Osia-Osia"></div>
           <div class="slide"><img src="images/brand-logo/3.png" alt="The-Power-full-You"></div>
+          <div class="slide"><img src="images/clients-logo/LOGO_00002.png" alt="Osia-Osia"></div>
+          <div class="slide"><img src="images/clients-logo/LOGO_00000 A.png" alt="Osia-Osia"></div>
+          <div class="slide"><img src="images/clients-logo/LOGO_00003.png" alt="Osia-Osia"></div>
+          <div class="slide mt-3" style="width:20px;"><img src="images/ZEZE-LOGO-02.png" alt="ZEZE"></div>
           <!--<div class="slide"><img style="width:120px;" src="images/brand-logo/kk-logo.png" alt="Kailsh-Kambhoj"></div>-->
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section>
+  <div class="container zindex-1">
+    <div class="row">
+      <div class="col-lg-12 text-center zindex-1">
+        <h2 class="upper-heading heading-color" 
+          style="font-family: 'Poppins', sans-serif;line-height:1;">Social Media
+        </h2>
+        <ul class ="social-icons">
+    <li class ="icons"><a class="icons-color" href="https://www.facebook.com/profile.php?id=61563853857935" target="_blank">
+        <i style ="font-size:3rem;" class="fab fa-facebook"  tabindex="0"></i>
+      </a></li>
+      
+    <li class ="icons"><a class="icons-color" href="https://www.instagram.com/thesyntra/" target="_blank">
+    <i style ="font-size:3rem;" class="fab fa-instagram"></i>
+      </a></li>
+    <li class ="icons"><a class ="icons-color" href="https://www.youtube.com/@the_syntra" target="_blank">
+    <i style ="font-size:2.80rem;" class="fab fa-youtube"></i>
+      </a></li>
+    <li class ="icons"><a class ="icons-color" href="https://www.threads.net/@thesyntra" target="_blank">
+    <i style ="font-size:3rem;" class="fa-brands fa-x-twitter"></i>
+
+
+      </a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

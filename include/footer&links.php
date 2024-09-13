@@ -2,7 +2,7 @@
       <footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+      <div class="col-lg-1 text-center text-lg-left mb-4 mb-lg-0">
         <!-- logo -->
         <!-- <a href="index.html">
           <img class="img-fluid" src="images/logo.png" alt="logo">
@@ -12,9 +12,9 @@
       <nav class="col-lg-10 align-self-center mb-5">
         <ul class="list-inline text-lg-right text-center footer-menu">
           <li class="list-inline-item active"><a href="Terms-&-Conditions.php">Terms & Conditions</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="Privacy.php">Privacy</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="Privacy.php">Privacy Policy</a></li>
           <li class="list-inline-item"><a href="contact.php">Contact Us</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="Pricing.php">Pricing</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="Pricing.php">Pricing Policy</a></li>
           <li class="list-inline-item"><a class="page-scroll" href="Refund-&-Cancellation.php">Refund & Cancellation</a></li>
           <!-- <li class="list-inline-item"><a href="Refund-&-Cancellation.php">Refund & Cancellation</a></li> -->
         </ul>
@@ -99,6 +99,11 @@
   <link rel="stylesheet" href="plugins/Venobox/venobox.css">
   <!-- aos -->
   <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+
 </body>
 
 </html>

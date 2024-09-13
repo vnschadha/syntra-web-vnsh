@@ -27,7 +27,7 @@
 
       <!-- <a href="#"> <li>Services</li></a> -->
       <!-- <a href="#"> <li>Contact</li></a> -->
-      <button class="btn btn-primary ml-lg-3 primary-shadow modal-open " data-modal="modal-1">Get In Touch<i class="fa-solid fa-arrow-right"></i></button>
+      <button class="btn btn-primary ml-lg-3 primary-shadow modal-open " data-modal="modal-1">Get In Touch</button>
 
     </ul>
   </a>
@@ -48,7 +48,7 @@
           <li> -->
             </li>
             <button class="btn btn-primary ml-lg-3 primary-shadow modal-open btnrespo" data-modal="modal-1">
-              Get In Touch<i class="fa-solid fa-arrow-right"></i>
+              Get In Touch 
             </button>
           </ul>
       </div>
