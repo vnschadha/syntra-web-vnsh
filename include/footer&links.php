@@ -9,13 +9,13 @@
         </a> -->
       </div>
       <!-- footer menu -->
-      <nav class="col-lg-10 align-self-center mb-5">
+      <nav class="col-lg-11 align-self-center flex mb-5">
         <ul class="list-inline text-lg-right text-center footer-menu">
           <li class="list-inline-item active"><a href="Terms-&-Conditions.php">Terms & Conditions</a></li>
           <li class="list-inline-item"><a class="page-scroll" href="Privacy.php">Privacy Policy</a></li>
           <li class="list-inline-item"><a href="contact.php">Contact Us</a></li>
           <li class="list-inline-item"><a class="page-scroll" href="Pricing.php">Pricing Policy</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="Refund-&-Cancellation.php">Refund & Cancellation</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="Refund-&-Cancellation.php">Refund & Cancellation Policy</a></li>
           <!-- <li class="list-inline-item"><a href="Refund-&-Cancellation.php">Refund & Cancellation</a></li> -->
         </ul>
       </nav>
@@ -61,27 +61,6 @@
 
       <script>
         AOS.init();
-      </script>
-      <script>
-        (function () {
-          // Add event listener
-          document.addEventListener("mousemove", parallax);
-          const elem = document.querySelector("#parallax");
-          // Magic happens here
-          function parallax(e) {
-            let _w = window.innerWidth / 2;
-            let _h = window.innerHeight / 2;
-            let _mouseX = e.clientX;
-            let _mouseY = e.clientY;
-            let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
-            let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
-            let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
-            let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-            console.log(x);
-            elem.style.backgroundPosition = x;
-          }
-
-        })();
       </script>
       <script>
        

@@ -80,7 +80,7 @@
 </section>
 
 <!-- About-Us Section -->
-<!-- deslzz -->
+<!-- desk-top -->
 <div class="video-head responsive-section" id="about">
   <video class="headVideo" autoplay muted loop playsinline>
 
@@ -180,7 +180,7 @@
       <div class="col-md-6">
         <div class="video-container">
           <video autoplay loop muted playsinline>
-            <source src="images/syntra-web-video/1-1_LOGO.mp4" type="video/mp4">
+            <source src="images/syntra-web-video/START LOGO ANI_NEW TAG_1-1.mp4" type="video/mp4">
 
           </video>
         </div>
@@ -326,7 +326,7 @@
               <div class="item-titletwo">
                 <div class="transparent-backtwo"></div>
                 <div class="title-texttwo">
-                  <p class="mt-2">PACKAGING PRINTING</p>
+                  <p class="mt-2">PRINTING & PACKAGING</p>
                 </div>
               </div>
             </div>
