@@ -325,7 +325,7 @@ var videoElement = document.getElementById('videoPlayer');
 
   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
     // Safari detected, use MP4 with HEVC
-    sourceElement.src = 'images/syntra-web-video/BALLOONS HD.mp4';
+    sourceElement.src = 'images/syntra-web-video/BALLOONS HD.mp4b';
     sourceElement.type = 'video/mp4';
   } else {
     // Use WebM for Chrome, Firefox, and others
