@@ -11,11 +11,12 @@
 
 <!-- hero area -->
 <!-- desktop Screen -->
-<div id="videoPlayer" class="video-head responsive-section">
+<div id="videoPlayer" class="video-head responsive-section-phnthree">
   <video id="videoPlayer" class="headVideo" autoplay muted loop playsinline>
+
+
     <source src="images/syntra-web-video/CUBE_ALPHA.webm" type="video/webm">
     <source src="images/syntra-web-video/FINAL-HD CUBE.mp4" type="video/mp4">
-
 
   </video>
 
@@ -28,13 +29,13 @@
           </div>
         </div>
         <div class="col-lg-7">
-          <div class="head-div">
+          <div class="head-div head-div-responsive">
             <h1 class="head-font  display-5 section-title heading-color heading-top ml-5"
               style=" font-family:'Poppins'; "><span style="color: #ff33a3;font-family:'Poppins'">Elevate</span> Your
               Brand Like
               Never Before</h1>
             <p class="ml-5 head-pra heading-pra  pragrp " data-aos="fade-up" style=" font-family:'Nunito', sans-serif">
-              <span class="span-line" style="font-weight:bold ;"> With
+              <span class="" style="font-weight:bold ;"> With
                 Syntra</span> <br> <strong> An <span style="color: #ff33a3;font-family:'Poppins';font-weight: 400; ">
                   Advertising </span> & <span style="color: #ff33a3;font-family:'Poppins'; font-weight: 400;">Digital
                   Solutions </span> Company</strong>
@@ -49,7 +50,7 @@
 </div>
 
 
-<section class="hero-section hero responsive-sectiontwo ">
+<section class="hero-section hero responsive-sectionthree ">
   <div class="container">
     <div class="row">
       <div class="col-md-5">
@@ -187,7 +188,7 @@
       </div>
       <div class="col-md-5">
         <h2 class=" upper-heading section-title heading-color fs-30" data-aos="fade-down">About Us</h2>
-        <p class="heading-pra  pragrp mb-5" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">We are a global
+        <p class="heading-pra pragrp pra-responsive mb-5" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">We are a global
           advertisement and digital solutions company dedicated to driving transformative results for our clients
           worldwide. We specialize in crafting innovative and creative solutions, leveraging our expertise in software
           development, UI/UX designing, video commercials, 2D and 3D animations, fresh appealing graphics, web and
@@ -232,8 +233,8 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom" data-aos="flip-left">
-          <div class=" services-block-three">
+        <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom " data-aos="flip-left">
+          <div class=" services-block-three ">
             <a href="javascript:void(0)">
               <div class="padding-15px-bottom">
                 <i class="fa fa-snowflake-o"></i>
@@ -257,7 +258,7 @@
 <section id="service">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 text-center offset-lg-3 ">
+      <div class="col-lg-6 text-center offset-lg-3 ">
         <div class="section-heading">
           <h2 class="head-font section-title heading-color " data-aos="fade-down">Our Services </h2>
         </div>
@@ -346,59 +347,43 @@
             </div>
           </div>
         </a>
-        <!-- <a href="VIDEO-PRODUCTION.php">
+        <a href="Creative-Brand-Strategy.php">
           <div class="gallery-itemstwo" data-aos="flip-left">
             <div class="itemtwo">
                 <div class="item-titletwo">
                 <div class="transparent-backtwo"></div>
                 <div class="title-texttwo">
-                  <p>VIDEO PRODUCTION</p>
+                  <p  class="mt-2" style="text-transform: uppercase;">Creative Brand  Strategy</p>
+                  
                 </div>
               </div>
             </div>
           </div>
-        </a> -->
-
-
-        <!--<a href="Website-Development.php">-->
-        <!--  <div class="gallery-itemstwo" data-aos="flip-left">-->
-        <!--    <div class="itemtwo">-->
-        <!-- <img src="https://drive.google.com/thumbnail?id=12C1eXDYZzoZxPySLiIvQV5YBkpUzDCbl" /> -->
-        <!--      <div class="item-titletwo">-->
-        <!--        <div class="transparent-backtwo"></div>-->
-        <!--        <div class="title-texttwo">-->
-        <!--          <p>Website Development</p>-->
-        <!--        </div>-->
-        <!--      </div>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--</a>-->
-        <!--<a href="SocialMedia.php">-->
-        <!--  <div class="gallery-itemstwo" data-aos="flip-left">-->
-        <!--    <div class="itemtwo">-->
-        <!-- <img src="https://drive.google.com/thumbnail?id=12C1eXDYZzoZxPySLiIvQV5YBkpUzDCbl" /> -->
-        <!--      <div class="item-titletwo">-->
-        <!--        <div class="transparent-backtwo"></div>-->
-        <!--        <div class="title-texttwo">-->
-        <!--          <p>Social Media</p>-->
-        <!--        </div>-->
-        <!--      </div>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--</a>-->
-        <!--<a href="special-packaging.php">-->
-        <!--  <div class="gallery-itemstwo" data-aos="flip-left">-->
-        <!--    <div class="itemtwo">-->
-        <!-- <img src="https://drive.google.com/thumbnail?id=12C1eXDYZzoZxPySLiIvQV5YBkpUzDCbl" /> -->
-        <!--      <div class="item-titletwo">-->
-        <!--        <div class="transparent-backtwo"></div>-->
-        <!--        <div class="title-texttwo">-->
-        <!--          <p>Special Packages</p>-->
-        <!--        </div>-->
-        <!--      </div>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--</a>-->
+        </a> 
+        <a href="Marketing-Analytics.php">
+          <div class="gallery-itemstwo" data-aos="flip-left">
+            <div class="itemtwo">
+                <div class="item-titletwo">
+                <div class="transparent-backtwo"></div>
+                <div class="title-texttwo">
+                  <p  class ="mt-2"style="text-transform: uppercase;">Marketing Analytics</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a> 
+        <a href="Digital-Transformation.php">
+          <div class="gallery-itemstwo" data-aos="flip-left">
+            <div class="itemtwo">
+                <div class="item-titletwo">
+                <div class="transparent-backtwo"></div>
+                <div class="title-texttwo">
+                  <p class ="mt-2"style="text-transform: uppercase;">Digital Transformation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a> 
 
       </div>
     </div>
@@ -414,31 +399,28 @@
         <div class="respon-img" style="margin-top:22%">
           <img class="img-fluid layer-3 up-down-animation" src="images/3157260-01.png" alt="Business-Strategy">
         </div>
-        <!-- &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; <button id="contact" class="btn btn-secondary btn-lg mt-3 ml-5 open-popup btnresp">Let’s
-              chat!</button>  -->
-
       </div>
       <div class="col-md-6">
         <h2 class="upper-heading section-title heading-color " data-aos="fade-down">Business Strategy </h2>
-        <p class="heading-pra pragrp" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
+        <p class="heading-pra pragrp pra-responsive" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
           style="font-family:'Nunito', sans-serif;">We collaborate with businesses to develop customized marketing
           strategies and digital solutions that align with their specific goals and target audience. We analyze market
           trends, competitor strategies, and their unique business needs to craft a comprehensive plan that drives
           impactful results.</p>
-        <p class="heading-pra pragrp" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
+        <p class="heading-pra pragrp pra-responsive" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
           style="font-family:'Nunito', sans-serif;">Our team combines data-driven insights with creative thinking to
           develop solutions that are both innovative and effective.</p>
-        <ul class="pl-0 service-list " style="line-height: .5;">
-          <li class="list-core" data-aos="fade-up" data-aos-delay="100" style="color: black; font-size:20px"><i
-              class="ti-layout-tab-window " style="color: black;"></i>Global
+        <ul class="pl-0 service-list" style="line-height: .5;">
+          <li class="list-core " data-aos="fade-up" data-aos-delay="100" style="color: black; font-size:18px"> <i
+              class="ti-layout-tab-window " style="color: black;"></i>  Global
             Reach
           </li>
           <li class="list-core" data-aos="fade-up" data-aos-dOur team combines data-driven insights with creative
             thinking to develop solutions that are both innovative and effective. elay="200"
-            style="color: black;font-size:20px"><i class="ti-layout-placeholder"
-              style="color: black;font-size:20px"></i>Collaborative
+            style="color: black;font-size:18px"><i class="ti-layout-placeholder"
+              style="color:black;font-size:18px"></i>Collaborative
             Approach</li>
-          <li class="" data-aos="fade-up" data-aos-delay="300" style="color: black; font-size:20px"><i
+          <li class="" data-aos="fade-up" data-aos-delay="300" style="color: black; font-size:18px"><i
               class="ti-support" style="color: black;"></i>Data-Driven
             Strategies
           </li>
@@ -450,73 +432,6 @@
 
 </section>
 
-<!-- Why Choose Syntra -->
-<!-- <section class="section-lg seo zindex-1">
-        <div class="container" id="about">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="seo-image ">
-                <img class=" img-fluid" src="images/wcs.jpg" alt="form-img">
-              </div>
-            </div>
-            <div class="col-md-6">
-              <h2 class="section-title heading-color " data-aos="fade-down">Why Choose SYNTRA?</h2>
-              <p class="" data-aos="fade-up">At SYNTRA, we understand the intricacies of luxury branding and the
-                importance
-                of
-                maintaining a sophisticated image. Our team of experts is dedicated to providing high-quality,
-                innovative
-                solutions
-                tailored to your brand’s unique needs. We take pride in our collaborative approach, working closely with
-                you
-                to ensure
-                your vision is realized and your goals are achieved.
-                Join us on this journey of creative excellence. Let SYNTRA help you advertise like never before and
-                transform your brand into an unforgettable experience
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
-<!-- <section class="section-lg seo">
-  <div class="container" id="about">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="seo-image" data-aos="fade-left">
-        </div>
-        <div class="video-container mt-4">
-              <video src="images/syntra-web-video/1-1_LOGO.mp4" loop muted autoplay></video>
-            </div>
-        <div class="video-wrapper">
-          <video autoplay loop muted playsinline>
-            <source src="images/syntra-web-video" type="video/mp4">
-
-          </video>
-        </div>
-      </div>
-      <div class="col-md-7">
-        <p class="text-white">ABOUT US</p>
-        <h2 class="section-title heading-color fs-30 ml-5" data-aos="fade-down">Why Choose SYNTRA?</h2>
-        <p class="ml-5" data-aos="fade-up" style="font-family:'Nunito', sans-serif; font-size: 1.60rem;">At SYNTRA, we
-          understand the intricacies of luxury branding and the
-          importance
-          of
-          maintaining a sophisticated image. Our team of experts is dedicated to providing high-quality,
-          innovative
-          solutions
-          tailored to your brand’s unique needs. We take pride in our collaborative approach, working closely with
-          you
-          to ensure
-          your vision is realized and your goals are achieved.
-          Join us on this journey of creative excellence. Let SYNTRA help you advertise like never before and
-          transform your brand into an unforgettable experience
-        </p>
-      </div>
-    </div>
-  </div>
-  </div>
-</section> -->
 
 <div class="video-headtwo responsive-section">
   <video id="videoPlayer" class="headVideotwo" autoplay muted loop playsinline>
@@ -568,12 +483,12 @@
 
       <div class="col-md-5">
         <h2 class=" upper-heading section-title heading-color fs-30" data-aos="fade-down">Why Choose SYNTRA?</h2>
-        <p class="heading-pra  pragrp" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">At SYNTRA, we
+        <p class="heading-pra  pragrp pra-responsive" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">At SYNTRA, we
           understand the intricacies of luxury branding and the importance of maintaining a sophisticated image. Our
           Clients vary from warehouse, mining, oil and gas companies to analytics consulting firms, investment bankers
           to coaches to giant luxury brands.
         </p>
-        <p class="heading-pra  pragrp" data-aos="fade-up" style="font-family:'Nunito', sans-serif;"> Our team of experts
+        <p class="heading-pra  pragrp pra-responsive" data-aos="fade-up" style="font-family:'Nunito', sans-serif;"> Our team of experts
           is dedicated to providing high-quality, innovative solutions tailored to your brand’s unique needs. We take
           pride in our collaborative approach, working closely with you to ensure your vision is realized and your goals
           are achieved. Join us on this journey of creative excellence. <strong>Let SYNTRA help elevate your brand like
@@ -600,7 +515,7 @@
     <div class="row">
       <div class="col-md-6 section-kil mb-5">
         <h2 class="upper-heading section-title  heading-color " data-aos="fade-down">Few Words From CEO </h2>
-        <p class="heading-pra pragrp" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
+        <p class="heading-pra pragrp pra-responsive" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
           style="font-family:'Nunito', sans-serif;">Hello, Welcome to <span style="font-weight: bold;color:#ff33a3">
             SYNTRA</span>
           where<strong> we turn your
@@ -609,7 +524,7 @@
           one
           epic design at a time.
         </p>
-        <p class="heading-pra pragrp" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
+        <p class="heading-pra pragrp pra-responsive" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
           style="font-family:'Nunito', sans-serif;"><strong> Our core value is creating IMPACT and our team is
             dedicated</strong> to
           pushing boundaries of innovation and
@@ -628,7 +543,8 @@
             <br>CEO,
             The Syntra <br>Ex-McKinsey Consultant
           </p>
-          <button id="contact" class="btn btn-secondary btn-lg mt-3 ml-5 open-popup btnresp responsive-sectiontwo">Let’s
+          <button id="contact" class="btn btn-secondary btn-lg mb-5 ml-5 modal-open btnresp responsive-sectiontwo" 
+          data-modal="modal-1">Let’s
             chat!</button>
         </div>
 

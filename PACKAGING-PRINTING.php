@@ -40,7 +40,7 @@
         your product. Our goal is to create packaging that not only protects your product but also enhances its appeal
         and value.
       </p>
-      <h1 class="text-dark upper-heading section-title heading-color" style="font-size:2rem">
+      <h1 class="text-dark upper-heading section-title heading-color sub-heading">
         We have forte in below packaging and prints: </h1>
 
       <h4 class="text-dark">Custom Packaging Solutions:</h4>

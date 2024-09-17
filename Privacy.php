@@ -8,7 +8,7 @@
 <?php include"include/Contact-form.php";?>
 
   <!-- /navigation -->
-  <section class="section-lg about pb-0" style="padding-top: 20%;">
+  <section class="section-lg about pb-0" >
     <div class="container">
       <div class="row">
         <div class="col-lg-12">

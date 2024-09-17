@@ -40,7 +40,7 @@
         commercial, background music for your website, or a jingle that becomes synonymous with your brand, our music
         production team delivers high-quality, original compositions that resonate.
       </p>
-      <p class="" style="font-size:21px"><strong>We have forte in below music production:</strong> </p>
+      <p class="text-dark upper-heading section-title heading-color sub-heading" ><strong>We have forte in below music production:</strong> </p>
       
       <h4 class="text-dark">Custom Soundtracks:</h4>
       <p style= "">We compose and produce custom soundtracks tailored to your brand’s identity. Our music is designed to enhance

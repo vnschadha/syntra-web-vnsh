@@ -40,30 +40,30 @@
         designs are not just aesthetically pleasing; they are strategically crafted to communicate your brand’s values
         and connect with your audience on a deeper level.
       </p>
-      <h1 class="text-dark upper-heading section-title heading-color" style="font-size:2rem">We have forte in below Designs: </h1>
-      <h4 class="text-dark">Brand Identity Design:</h4>
+      <h1 class="text-dark upper-heading section-title heading-color sub-heading">We have forte in below Designs: </h1>
+      <h4 class="text-dark sub-head">Brand Identity Design:</h4>
       <p style= "">Your brand’s identity is the foundation of all your marketing efforts. We create cohesive and visually
         appealing brand identities that include logo design, typography, color schemes, and brand guidelines. Our
         designs are timeless and versatile, ensuring that your brand stays relevant across all touchpoints.</p>
 
-      <h4 class="text-dark">Website Design:</h4>
+      <h4 class="text-dark sub-head">Website Design:</h4>
       <p style= "">A well-designed website is essential for any luxury brand. We build custom websites that are not only visually
         stunning but also user-friendly and optimized for conversions. From the initial concept to the final design, we
         focus on creating an online presence that reflects your brand’s elegance and sophistication.
       </p>
-      <h4 class="text-dark">Packaging Design:</h4>
+      <h4 class="text-dark sub-head">Packaging Design:</h4>
       <p style= "">In the luxury market, packaging is as important as the product itself. We design exquisite packaging that
         enhances the unboxing experience, turning it into a memorable event. Our designs are tailored to reflect the
         exclusivity and premium nature of your products.
 
       </p>
 
-      <h4 class="text-dark">Print Design:</h4>
+      <h4 class="text-dark sub-head">Print Design:</h4>
       <p style= "">Our print design services cover everything from brochures and catalogs to business cards and posters. We create
         sophisticated print materials that leave a lasting impression, aligning perfectly with your brand’s identity and
         message.</p>
 
-      <h4 class="text-dark">UX/UI Design:</h4>
+      <h4 class="text-dark sub-head">UX/UI Design:</h4>
       <p style= "">We specialize in creating intuitive and engaging user experiences for your digital products. Our UX/UI designs
         are crafted to provide seamless navigation and a pleasurable experience for your customers, enhancing their
         interaction with your brand.</p>

@@ -38,7 +38,7 @@
       <p class="" style=" ">In today's digital age, a strong social media presence is essential for any brand looking to
         connect with its audience. At Syntra, we specialize in creating impactful social media strategies that resonate
         with your target market, whether you’re a luxury brand or a digital coach.</p>
-      <h1 class="text-dark upper-heading section-title heading-color" style="font-size:2rem">Our Social Media Services
+      <h1 class="text-dark upper-heading section-title heading-color sub-heading">Our Social Media Services
         Include:</h1>
        <h4 class="text-dark">Posts, Stories, and Reels </h4>
       <p style="">Engaging content is the cornerstone of a successful social media strategy. We create visually striking

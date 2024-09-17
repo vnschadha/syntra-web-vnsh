@@ -39,18 +39,18 @@
         brand's online presence and functionality. Whether you're a luxury brand aiming to captivate a high-end audience
         or a digital coach seeking to engage a broader market, our digital expertise ensures that your digital platforms
         are both visually stunning and technically robust.</p>
-        <h1 class="text-dark upper-heading section-title heading-color" style="font-size:2rem">Our Digital Solutions Include:</h1>
-        <h4 class="text-dark">UI/UX Designing </h4>
+        <h1 class="text-dark upper-heading section-title heading-color sub-heading">Our Digital Solutions Include:</h1>
+        <h4 class="text-dark sub-head">UI/UX Designing </h4>
       <p style="">Crafting intuitive and visually appealing user interfaces that enhance the user experience across all devices. We ensure that your digital platforms are not only aesthetically pleasing but also user-friendly, helping to convert visitors into loyal customers.</p>
 
-      <h4 class="text-dark">Website Development</h4>
+      <h4 class="text-dark sub-head">Website Development</h4>
       <p style="">Building dynamic, responsive, and SEO-optimized websites that reflect your brand’s identity and meet your business objectives. From simple landing pages to complex e-commerce platforms, we develop websites that are both functional and scalable.
       </p>
-      <h4 class="text-dark">Web and Mobile Apps</h4>
+      <h4 class="text-dark sub-head">Web and Mobile Apps</h4>
       <p style="">Developing cutting-edge web and mobile applications that align with your business goals. Our apps are designed to engage users, streamline operations, and drive growth. Whether it’s a customer-facing app or an internal tool, we create solutions that perform seamlessly across all platforms.
       </p>
 
-      <h4 class="text-dark">Backend APIs</h4>
+      <h4 class="text-dark sub-head">Backend APIs</h4>
       <p style="">Designing and implementing robust backend systems and APIs that ensure your applications run smoothly. We handle everything from server management to database integration, providing secure and scalable backend solutions that support your digital ecosystem.</p>
 
       
