@@ -17,23 +17,23 @@
         </div>
       </div>
     </div>
-    <!-- <div class="full-gallerythree">
+    <div class="full-gallerythree">
       <div class="image-gallerythree">
         <div class="circle-wrapperthree gallery-itemsthree">
           <div class="circle circletwo" data-circle="1" data-aos="flip-left">
             <button class="back-button">Back</button>
             <div class="videothree">
-              <video src="images/syntra-web-video/ADV_SMALL.mp4" loop muted>
+              <video src="images/syntra-web-video/WEBSITE-BRAND STRATEGY 16-9_1.mp4" loop muted>
               </video>
             </div>
 
             <div class="text">
-              <span class ="mt-5 span-liners" style=""> See The Magic Of Syntra advertisements </span>
+              <span class ="mt-5 span-liners" style=""> See The Magic Of Creative Brand Strategy </span>
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="col-lg-12 mb-100">
       <!-- <h4 class="text-dark">Information Collection</h4> -->
       <h4 class="text-dark sub-head">Build a Brand That Resonates
@@ -57,12 +57,12 @@
       <h4 class="text-dark sub-head">Results You’ll Achieve:</h4>
 
       <ul class="circle-bulet">
-          <li><p>A powerful, consistent brand identity</p></li>
+      <li> <p>A powerful, consistent brand identity</p></li>
           <li><p>Increased customer loyalty and recognition</p></li>
           <li><p>A unique position in the marketplace</p></li>
           <li><p>Emotional connection with your audience</p></li>
       </ul>
-      <p class="mt-5" style= "font-weight:500 ;"> Let’s build a brand that stands out. Contact SYNTRA today for a consultation.</p>
+      <p class="mt-5" style= "font-weight:500 ;"> Let’s build a brand that stands out. Contact SYNTRA today for a free 30 min consultation.</p>
 
     
     </div>

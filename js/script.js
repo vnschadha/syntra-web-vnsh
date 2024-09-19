@@ -355,3 +355,19 @@ var videoElement = document.getElementById('videoPlayer');
   }
   videoElement.appendChild(sourceElement);
   videoElement.load();
+
+  
+  var videoElement = document.getElementById('videoPlayer');
+  var sourceElement = document.createElement('source');
+
+  if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+    // Safari detected, use MP4 with HEVC
+    sourceElement.src = 'images/syntra-web-video/START LOGO ANI_NEW TAG_1-1.mp4';
+    sourceElement.type = 'video/mp4';
+  } else {
+    // Use WebM for Chrome, Firefox, and others
+    sourceElement.src = 'images/syntra-web-video/ABOUT US ALPHA_1-1.webm';
+    sourceElement.type = 'video/webm';
+  }
+  videoElement.appendChild(sourceElement);
+  videoElement.load();

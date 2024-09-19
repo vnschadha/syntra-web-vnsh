@@ -13,28 +13,28 @@
       <div class="col-lg-10 text-center offset-lg-1 ">
         <div class="section-heading">
           <h1 class=" head-heading section-title heading-color mt-5 head-level" data-aos="fade-down">
-          Digital Transformation for Marketing Departments
+          Digital Transformation Services
           </h1>
         </div>
       </div>
     </div>
-    <!-- <div class="full-gallerythree">
+    <div class="full-gallerythree">
       <div class="image-gallerythree">
         <div class="circle-wrapperthree gallery-itemsthree">
           <div class="circle circletwo" data-circle="1" data-aos="flip-left">
             <button class="back-button">Back</button>
             <div class="videothree">
-              <video src="images/syntra-web-video/ADV_SMALL.mp4" loop muted>
+              <video src="images/syntra-web-video/WEBSITE-DIGITAL TRANSOFRMATION FOR MARKETING 16-9_1.mp4" loop muted>
               </video>
             </div>
 
             <div class="text">
-              <span class ="mt-5 span-liners" style=""> See The Magic Of Syntra advertisements </span>
+              <span class ="mt-5 span-liners" style=""> See The Magic Of Digital Transformation</span>
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="col-lg-12 mb-100">
       <!-- <h4 class="text-dark">Information Collection</h4> -->
       <h4 class="text-dark sub-head" >Modernize Your Marketing for the Digital Age
@@ -86,7 +86,7 @@
           </p>
         </li>
       </ul>
-      <p class ="mt-5" style="font-weight:500 ;"> Ready to revolutionize your marketing department? <br> Contact SYNTRA today to start your digital transformation journey.</p>
+      <p class ="mt-5" style="font-weight:500 ;"> Ready to revolutionize your marketing department? <br> Contact SYNTRA today to start your digital transformation journey. Book your free 30 min consultation.</p>
 
 
 

@@ -41,7 +41,7 @@
           production team delivers high-quality, original compositions that resonate.
         </p>
         <h1 class="text-dark upper-heading section-title heading-color" style="font-size:2rem">We 
-          have forte in below Video production:</h1>
+          have forte in below Music Production:</h1>
       
         
         <h4 class="text-dark">Custom Soundtracks:</h4>
@@ -80,7 +80,7 @@
         message with clarity and impact. From concept to final cut, we handle every aspect of video production to
         deliver visually stunning content that resonates with your audience.
       </p>
-      <h1 class="text-dark upper-heading section-title heading-color" style="font-size:2rem">We have forte in below music production:</h1>
+      <h1 class="text-dark upper-heading section-title heading-color" style="font-size:2rem">We have forte in below Video Production:</h1>
 
 
       <h4 class="text-dark">Commercial Videos:</h4>

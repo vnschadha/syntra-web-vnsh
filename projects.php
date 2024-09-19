@@ -7,7 +7,7 @@
 <!-- Contact form -->
 <?php include"include/Contact-form.php";?>
 
-<section id="projects" style="padding-top: 1%;">
+<!-- <section id="projects" style="padding-top: 1%;">
     <div class="container">
       <div class="row">
         <div class="col-lg-7 text-center offset-lg-3 ">
@@ -18,9 +18,7 @@
       </div>
       <div class="full-gallery">
         <div class="image-gallery">
-          <!-- <div type="button" class="video-btn" data-toggle="modal"
-          data-src="images/syntra-web-video/Untitled video - Made with Clipchamp.mp4" data-target="#myModal" loop
-          muted autoplay> -->
+        
           <div class="circle-wrapper gallery-items ml-5">
             <div class="circle " data-circle="1" data-aos="flip-left">
               <button class="back-button">Back</button>
@@ -52,79 +50,140 @@
     </div>
     </div>
     
-  </section>
- 
- <!--<section id="projects" style="padding-top: 1%;">-->
- <!--   <div class="container">-->
- <!--     <div class="row">-->
- <!--       <div class="col-lg-8 text-center offset-lg-2 ">-->
- <!--         <div class="section-heading " >-->
- <!--           <h1 class="upper-heading head-headingtwo section-title heading-color ml-0" data-aos="fade-down" >Our Projects </h1>-->
- <!--         </div>-->
-        
-       
- <!--     </div>-->
- <!--     <div class="full-gallery">-->
- <!--       <div class="image-gallery">-->
-          <!-- <div type="button" class="video-btn" data-toggle="modal"
-        data-src="images/syntra-web-video/Untitled video - Made with Clipchamp.mp4" data-target="#myModal" loop-->
- <!--         muted autoplay> -->
- <!--         <div class="circle-wrapper gallery-items ml-5">-->
- <!--           <div class="circle " data-circle="1" data-aos="flip-left">-->
- <!--             <button class="back-button">Back</button>-->
- <!--             <div class="videotwo">-->
- <!--               <video src="images/syntra-web-video/Osia Osia-Client Portfolio-SMALL.mp4" loop muted>-->
- <!--               </video>-->
- <!--             </div>-->
-              
- <!--             <div class="text">-->
- <!--               <span style="color: #fff;"> <img class="mb-4 image-respon" width="250" src="images/clients-logo/OSIA LOGO-1 (1).png" alt="osia-osia" srcset="">  </span>-->
- <!--             </div>-->
- <!--             </div>-->
- <!--           </div>-->
- <!--           <div class="circle-wrapper gallery-items ml-5">-->
- <!--             <div class="circle" data-circle="1" data-aos="flip-left">-->
- <!--               <button class="back-button">Back</button>-->
- <!--               <div class="videotwo">-->
- <!--                 <video src="images/syntra-web-video/TPY Brand Portfolio - 01-SMALL.mp4" loop muted>-->
- <!--                 </video>-->
- <!--               </div>-->
-                
- <!--               <div class="text ">-->
- <!--                 <span style="color: #fff;"> <img class="mb-4 image-respon" width="300" src="images/clients-logo/TPY FINAL FILE 1.png" alt="The-power-full-you" srcset="">  </span>-->
- <!--               </div>-->
- <!--               </div>-->
- <!--             </div>-->
-              <!--<div class="circle-wrapper gallery-items ml-5">-->
-              <!--  <div class="circle" data-circle="1" data-aos="flip-left">-->
-              <!--    <button class="back-button">Back</button>-->
-              <!--    <div class="videotwo">-->
-              <!--      <video src="#" loop muted>-->
-              <!--      </video>-->
-              <!--    </div>-->
-                  
-              <!--    <div class="text ">-->
-              <!--      <span style="color: #fff;"> <img class="mt-1 image-respon"-->
-              <!--       width="270" src="images/brand-logo/kk-logo.png" alt="kailash-kambhoj" srcset="">  </span>-->
-              <!--    </div>-->
-              <!--    </div>-->
-              <!--  </div>-->
- <!--         </div>-->
- <!--        </div>-->
- <!--     </div>-->
-   
-    
- <!-- </section>-->
+  </section> -->
+
+<section id="projects" style="padding-top: 1%;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 text-center offset-lg-2 ">
+        <div class="section-heading ">
+          <h1 class="upper-heading head-headingtwo section-title heading-color ml-0" data-aos="fade-down">Our Projects
+          </h1>
+        </div>
 
 
-  
-  <!-- talk to us  -->
+      </div>
+      <div class="full-gallery col-lg-12">
+        <div class="image-gallery">
+          <div class="circle-wrapper gallery-items ml-5">
+            <div class="circle " data-circle="1" data-aos="flip-left">
+              <button class="back-button">Back</button>
+              <div class="videotwo">
+                <video src="images/syntra-web-video/Osia Osia-Client Portfolio-SMALL.mp4" loop muted>
+                </video>
+              </div>
+
+              <div class="text">
+                <span style="color: #fff;"> <img class="mb-4 image-respon" width="150"
+                    src="images/clients-logo/OSIA LOGO-1 (1).png" alt="osia-osia" srcset=""> </span>
+              </div>
+            </div>
+          </div>
+          <div class="circle-wrapper gallery-items ml-5">
+            <div class="circle" data-circle="1" data-aos="flip-left">
+              <button class="back-button">Back</button>
+              <div class="videotwo">
+                <video src="images/syntra-web-video/TPY Brand Portfolio - 01-SMALL.mp4" loop muted>
+                </video>
+              </div>
+
+              <div class="text ">
+                <span style="color: #fff;"> <img class="mb-3 image-respon" width="170"
+                    src="images/clients-logo/TPY FINAL FILE 1.png" alt="The-power-full-you" srcset=""> </span>
+              </div>
+            </div>
+          </div>
+           <!-- <div class="circle-wrapper gallery-items ml-5">
+            <div class="circle" data-circle="1" data-aos="flip-left">
+              <button class="back-button">Back</button>
+              <div class="videotwo">
+                <video src="#" loop muted>
+                </video>
+              </div>
+
+              <div class="text ">
+                <span style="color: #fff;"> <img class="mt-1 image-respon" width="220"
+                    src="images/clients-logo/LOGO_00000 A.png" alt="kailash-kambhoj" srcset=""> </span>
+              </div>
+            </div>
+          </div> 
+          <div class="circle-wrapper gallery-items ml-5">
+            <div class="circle" data-circle="1" data-aos="flip-left">
+              <button class="back-button">Back</button>
+              <div class="videotwo">
+                <video src="#" loop muted>
+                </video>
+              </div>
+
+              <div class="text ">
+                <span style="color: #fff;"> <img class="mt-1 image-respon" width="220"
+                    src="images/clients-logo/LOGO_00001.png" alt="kailash-kambhoj" srcset=""> </span>
+              </div>
+            </div>
+          </div>
+          <div class="circle-wrapper gallery-items ml-5">
+            <div class="circle" data-circle="1" data-aos="flip-left">
+              <button class="back-button">Back</button>
+              <div class="videotwo">
+                <video src="#" loop muted>
+                </video>
+              </div>
+
+              <div class="text ">
+                <span style="color: #fff;"> <img class="mt-1 image-respon" width="220"
+                    src="images/clients-logo/LOGO_00002.png" alt="kailash-kambhoj" srcset=""> </span>
+              </div>
+            </div>
+          </div>
+          <div class="circle-wrapper gallery-items ml-5">
+            <div class="circle" data-circle="1" data-aos="flip-left">
+              <button class="back-button">Back</button>
+              <div class="videotwo">
+                <video src="#" loop muted>
+                </video>
+              </div>
+
+              <div class="text ">
+                <span style="color: #fff;"> <img class="mt-1 image-respon" width="220"
+                    src="images/clients-logo/LOGO_00003.png" alt="kailash-kambhoj" srcset=""> </span>
+              </div>
+            </div>
+          </div>
+          <div class="circle-wrapper gallery-items ml-5">
+            <div class="circle" data-circle="1" data-aos="flip-left">
+              <button class="back-button">Back</button>
+              <div class="videotwo">
+                <video src="#" loop muted>
+                </video>
+              </div>
+
+              <div class="text ">
+                <span style="color: #fff;"> <img class="mb-4 image-respon" width="180"
+                    src="images/clients-logo/pngegg.png" alt="kailash-kambhoj" srcset=""> </span>
+              </div>
+            </div>
+          </div>  -->
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- </section>-->
+
+
+
+<!-- talk to us  -->
 <section class="zindex-1">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center zindex-1 mt-5 ">
-        <h2 class="upper-heading-end mb-3 heading-color mt-5 " style="font-family: 'Poppins', sans-serif; line-height:1;"
-          data-aos="fade-down">Ready to
+        <h2 class="upper-heading-end mb-3 heading-color mt-5 "
+          style="font-family: 'Poppins', sans-serif; line-height:1;" data-aos="fade-down">Ready to
           Elevate Your Brand? <br> <span class="upper-heading" style="color: #ff33a3; ">Let’s Talk!</span>
         </h2>
 
@@ -137,12 +196,13 @@
 </section>
 
 
-  <!-- Contact Us -->
+<!-- Contact Us -->
 <section>
   <div class="container mt-5">
     <div class="row">
       <div class="col-lg-12 text-center zindex-1 mt-5">
-        <h2 class="upper-heading mb-3 heading-color mt-5" style="font-family: 'Poppins', sans-serif;line-height:1;" data-aos="fade-down">Contact Us
+        <h2 class="upper-heading mb-3 heading-color mt-5" style="font-family: 'Poppins', sans-serif;line-height:1;"
+          data-aos="fade-down">Contact Us
         </h2>
         <p class="mt-4 fs-30 " style="color: #000000;font-size: 23px;" data-aos="flip-left"><a
             href="mailto:info@thesyntra.com" style="color: #000000;"><img class="up-down-animation" width="50px"
@@ -172,14 +232,49 @@
         </h2>
         <div class="client-slider">
           <div class="slide"><img src="images/clients-logo/OSIA OSIA LOGO BLACK.png" alt="Osia-Osia"></div>
-          <div class="slide mt-3" style="width:20px;"><img src="images/ZEZE-LOGO-02.png" alt="ZEZE"></div>
+          <div class="slide"><img src="images/clients-logo/LOGO_00001.png" alt="Osia-Osia"></div>
+          <div class="slide"><img src="images/clients-logo/pngegg.png" alt="Osia-Osia"></div>
           <div class="slide"><img src="images/brand-logo/3.png" alt="The-Power-full-You"></div>
+          <div class="slide"><img src="images/clients-logo/LOGO_00002.png" alt="Osia-Osia"></div>
+          <div class="slide"><img src="images/clients-logo/LOGO_00000 A.png" alt="Osia-Osia"></div>
+          <div class="slide"><img src="images/clients-logo/LOGO_00003.png" alt="Osia-Osia"></div>
+          <div class="slide mt-3" style="width:20px;"><img src="images/ZEZE-LOGO-02.png" alt="ZEZE"></div>
           <!--<div class="slide"><img style="width:120px;" src="images/brand-logo/kk-logo.png" alt="Kailsh-Kambhoj"></div>-->
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section>
+  <div class="container zindex-1">
+    <div class="row">
+      <div class="col-lg-12 text-center zindex-1">
+        <h2 class="upper-heading heading-color" style="font-family: 'Poppins', sans-serif;line-height:1;">Social Media
+        </h2>
+        <ul class="social-icons">
+          <li class="icons"><a class="icons-color" href="https://www.facebook.com/profile.php?id=61563853857935"
+              target="_blank">
+              <i style="font-size:3rem;" class="fab fa-facebook" tabindex="0"></i>
+            </a></li>
+
+          <li class="icons"><a class="icons-color" href="https://www.instagram.com/thesyntra/" target="_blank">
+              <i style="font-size:3rem;" class="fab fa-instagram"></i>
+            </a></li>
+          <li class="icons"><a class="icons-color" href="https://www.youtube.com/@the_syntra" target="_blank">
+              <i style="font-size:2.80rem;" class="fab fa-youtube"></i>
+            </a></li>
+          <li class="icons"><a class="icons-color" href="https://www.threads.net/@thesyntra" target="_blank">
+              <i style="font-size:3rem;" class="fa-brands fa-x-twitter"></i>
+
+
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

@@ -11,7 +11,7 @@
 
 <!-- hero area -->
 <!-- desktop Screen -->
-<div id="videoPlayer" class="video-head responsive-section-phnthree">
+<div id="videoPlayer" class="video-head responsive-section-phnthree"><!---->
   <video id="videoPlayer" class="headVideo" autoplay muted loop playsinline>
 
 
@@ -41,7 +41,10 @@
                   Solutions </span> Company</strong>
             </p>
 
-            <a href="#service" class="btn btn-secondary btn-lg ml-5 mt-3" data-aos="fade-down">Discover Our Services</a>
+          </div>
+          <div class="respons-btn">
+
+            <a href="#service" class="btn btn-secondary btn-lg ml-5 mt-3"  data-aos="fade-down">Discover Our Services</a>
           </div>
         </div>
       </div>
@@ -50,7 +53,7 @@
 </div>
 
 
-<section class="hero-section hero responsive-sectionthree ">
+<section class="hero-section hero responsive-sectionthree">
   <div class="container">
     <div class="row">
       <div class="col-md-5">
@@ -85,7 +88,7 @@
 <div class="video-head responsive-section" id="about">
   <video class="headVideo" autoplay muted loop playsinline>
 
-    <source src="images/syntra-web-video/START-LOGO-ALPHA-NEW" type="video/webm">
+    <source src="images/syntra-web-video/START-LOGO-ALPHA-NEW.webm" type="video/webm">
     <source src="images/syntra-web-video/START LOGO ANI_NEW TAG_16-9.mp4" type="video/mp4">
 
   </video>
@@ -98,14 +101,18 @@
 
           </div>
         </div>
-        <div class="col-md-6 about-head" style="margin-top: -14%;" id="about">
+        <div class="col-md-6 about-head" style="" id="about">
           <h2 class=" upper-heading section-title heading-color fs-30" data-aos="fade-down">About Us</h2>
           <p class="heading-pra pragrp space-pra" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">We are a
-            global advertisement and digital solutions company dedicated to driving transformative results for our
-            clients worldwide. We specialize in crafting innovative and creative solutions, leveraging our expertise in
-            software development, UI/UX designing, video commercials, 2D and 3D animations, fresh appealing graphics,
-            web and mobile apps, backend APIs, and more. We know how to elevate a brand with our high end professional
-            outputs and have a record of making our clients extremely happy.
+            global
+            advertising and digital solutions company focused on delivering innovative, data-driven strategies that
+            transform
+            brands and businesses. Specializing in creative advertising, marketing analytics, UI/UX design, video
+            production,
+            2D/3D animations, and cutting-edge digital solutions, we empower B2B and B2C clients to achieve exceptional
+            growth.
+            We know how to elevate
+            a brand with our high end professional outputs and have a record of making our clients extremely happy.
           </p>
         </div>
       </div>
@@ -113,24 +120,21 @@
     </div>
   </section>
 </div>
-
+<!-- responsive-section -->
 <section class="mt-3 responsive-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom" data-aos="flip-left">
         <div class="services-block-three">
           <a href="javascript:void(0)">
-            <div class="padding-15px-bottom">
+            <!-- <div class="padding-15px-bottom">
               <i class="fa fa-snowflake-o"></i>
-            </div>
+            </div> -->
             <h4 class="upper-heading-section heading-color head-tut" data-aos="fade-down">Purpose</h4>
-            <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">Our purpose is to
-              transform creative
-              ideas into impactful fresh visual experiences that captivate audiences and elevate brands.
-              We are
-              dedicated to helping brands and ambitious entrepreneurs achieve unparalleled visibility
-              <br> and engagement through our innovative and bespoke
-              advertisement and digital solutions services.
+            <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">Our purpose is to turn ideas into
+              powerful, data-driven visual experiences that engage audiences and enhance brand presence. We empower
+              businesses and entrepreneurs to reach new levels of visibility and growth through our creative, tailored
+              solutions that are designed to meet their unique needs and goals.
             </p>
           </a>
         </div>
@@ -139,16 +143,15 @@
       <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom" data-aos="flip-right">
         <div class="services-block-three">
           <a href="javascript:void(0)">
-            <div class="padding-15px-bottom">
+            <!-- <div class="padding-15px-bottom">
               <i class="fa fa-eercast"></i>
-            </div>
+            </div> -->
             <h4 class="upper-heading-section heading-color head-tut" data-aos="fade-down">Vision</h4>
-            <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">To be the leading advertising and
-              digital solutions <br> company, renowned for our creativity, innovation, <br> and excellence. We strive to
-              <br>
-              set
-              industry standards and <br> push the boundaries of what’s possible, ensuring that <br> our clients always
-              receive <br> the most effective and cutting-edge solutions.
+            <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">
+              To be the leading global partner for B2B and B2C clients, recognized for our creativity, innovation, and
+              cutting-edge solutions. We are committed to setting industry standards and pushing the boundaries of
+              what’s possible in advertising and digital transformation, driving progress and excellence in every
+              endeavor.
             </p>
 
           </a>
@@ -157,14 +160,13 @@
       <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom" data-aos="flip-left">
         <div class=" services-block-three">
           <a href="javascript:void(0)">
-            <div class="padding-15px-bottom">
+            <!-- <div class="padding-15px-bottom">
               <i class="fa fa-snowflake-o"></i>
-            </div>
+            </div> -->
             <h4 class="upper-heading-section heading-color head-tut" data-aos="fade-down">Mission</h4>
-            <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">Our mission is to deliver unmatched
-              creativity and innovation in advertising and digital solutions. Over the next decade, we aim to elevate
-              the brand value of at least 500 brands and 10,000 entrepreneurs across the globe, using personalized,
-              bespoke solutions to empower them with compelling visual storytelling and world class digital solutions.
+            <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">Our mission is to deliver unmatched creativity and innovation in advertising and digital solutions. 
+            Over next decade, we aim to elevate brand value of 500 businesses and 10,000 entrepreneurs worldwide, empowering them with personalized, 
+            strategies and <br> world-class digital solutions.
             </p>
           </a>
         </div>
@@ -180,20 +182,23 @@
     <div class="row">
       <div class="col-md-6">
         <div class="video-container">
-          <video autoplay loop muted playsinline>
-            <source src="images/syntra-web-video/START LOGO ANI_NEW TAG_1-1.mp4" type="video/mp4">
+          <video id="videoPlayer" autoplay loop muted playsinline>
+      
+          <source src="images/syntra-web-video/START LOGO ANI_NEW TAG_1-1.mp4" type="video/mp4">
+
+           
 
           </video>
         </div>
       </div>
       <div class="col-md-5">
         <h2 class=" upper-heading section-title heading-color fs-30" data-aos="fade-down">About Us</h2>
-        <p class="heading-pra pragrp pra-responsive mb-5" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">We are a global
-          advertisement and digital solutions company dedicated to driving transformative results for our clients
-          worldwide. We specialize in crafting innovative and creative solutions, leveraging our expertise in software
-          development, UI/UX designing, video commercials, 2D and 3D animations, fresh appealing graphics, web and
-          mobile apps, backend APIs, and more. We know how to elevate a brand with our high end professional outputs and
-          have a record of making our clients extremely happy.
+        <p class="heading-pra pragrp pra-responsive mb-5" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">
+          We are a global advertising and digital solutions company focused on delivering innovative, data-driven
+          strategies that transform brands and businesses. Specializing in creative advertising, marketing analytics,
+          UI/UX design, video production, 2D/3D animations, and cutting-edge digital solutions, we empower B2B and B2C
+          clients to achieve exceptional growth. We know how to elevate a brand with our high end professional outputs
+          and have a record of making our clients extremely happy.
         </p>
       </div>
     </div>
@@ -204,16 +209,14 @@
         <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom" data-aos="flip-left">
           <div class="services-block-three">
             <a href="javascript:void(0)">
-              <div class="padding-15px-bottom">
-                <i class="fa fa-snowflake-o"></i>
-              </div>
+             
               <h4 class="upper-heading-section heading-color head-tut" style="" data-aos="fade-down">Purpose</h4>
-              <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">Our purpose is to transform
-                creative
-                ideas into impactful fresh visual experiences that captivate audiences and elevate brands. We are
-                dedicated to helping brands and ambitious entrepreneurs achieve unparalleled visibility
-                and engagement through our innovative and bespoke
-                advertisement and digital solutions services.</p>
+              <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">
+                Our purpose is to turn ideas into
+                powerful, data-driven visual experiences that engage audiences and enhance brand presence. We empower
+                businesses and entrepreneurs to reach new levels of visibility and growth through our creative, tailored
+                solutions that are designed to meet their unique needs and goals.
+              </p>
             </a>
           </div>
 
@@ -221,14 +224,14 @@
         <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom" data-aos="flip-right">
           <div class="services-block-three">
             <a href="javascript:void(0)">
-              <div class="padding-15px-bottom">
-                <i class="fa fa-eercast"></i>
-              </div>
+            
               <h4 class="upper-heading-section heading-color head-tut" style="" data-aos="fade-down">Vision</h4>
-              <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">To be the leading advertising and
-                digital solutions company, renowned for our creativity, innovation, and excellence. We strive to set
-                industry standards and <br> push the boundaries of what’s possible, ensuring that our clients always
-                receive the most effective and cutting-edge solutions.</p>
+              <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">
+                To be the leading global partner for B2B and B2C clients, recognized for our creativity, innovation, and
+                cutting-edge solutions. We are committed to setting industry standards and pushing the boundaries of
+                what’s possible in advertising and digital transformation, driving progress and excellence in every
+                endeavor.
+              </p>
 
             </a>
           </div>
@@ -236,15 +239,15 @@
         <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom " data-aos="flip-left">
           <div class=" services-block-three ">
             <a href="javascript:void(0)">
-              <div class="padding-15px-bottom">
-                <i class="fa fa-snowflake-o"></i>
-              </div>
+             
               <h4 class="upper-heading-section heading-color head-tut" style="" data-aos="fade-down">Mission</h4>
-              <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">Our mission is to deliver
-                unmatched creativity and innovation in advertising and digital solutions. Over the next decade, we aim
-                to elevate the brand value of at least 500 brands and 10,000 entrepreneurs across the globe, using
-                personalized, bespoke solutions to empower them with compelling visual storytelling and world class
-                digital solutions.</p>
+              <p class=" xs-line-height-22 " style="font-family:'Nunito', sans-serif">
+                Our mission is to deliver unmatched
+                creativity and innovation in advertising and digital solutions. Over the next decade, we aim to elevate
+                the
+                brand value of 500 businesses and 10,000 entrepreneurs worldwide, empowering them with personalized,
+                data-driven strategies and world-class digital solutions.
+              </p>
             </a>
           </div>
         </div>
@@ -260,7 +263,7 @@
     <div class="row">
       <div class="col-lg-6 text-center offset-lg-3 ">
         <div class="section-heading">
-          <h2 class="head-font section-title heading-color " data-aos="fade-down">Our Services </h2>
+          <h2 class=" upper-heading section-title heading-color fs-30" data-aos="fade-down">Our Services </h2>
         </div>
       </div>
     </div>
@@ -300,6 +303,43 @@
                 <div class="transparent-backtwo"></div>
                 <div class="title-texttwo">
                   <p>DESIGNS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="Creative-Brand-Strategy.php">
+          <div class="gallery-itemstwo" data-aos="flip-left">
+            <div class="itemtwo">
+              <div class="item-titletwo">
+                <div class="transparent-backtwo"></div>
+                <div class="title-texttwo">
+                  <p class="mt-2" style="text-transform: uppercase;">Creative Brand Strategy</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="Marketing-Analytics.php">
+          <div class="gallery-itemstwo" data-aos="flip-left">
+            <div class="itemtwo">
+              <div class="item-titletwo">
+                <div class="transparent-backtwo"></div>
+                <div class="title-texttwo">
+                  <p class="mt-2" style="text-transform: uppercase;">Marketing Analytics</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="Digital-Transformation.php">
+          <div class="gallery-itemstwo" data-aos="flip-left">
+            <div class="itemtwo">
+              <div class="item-titletwo">
+                <div class="transparent-backtwo"></div>
+                <div class="title-texttwo">
+                  <p class="mt-2" style="text-transform: uppercase;">Digital Transformation</p>
                 </div>
               </div>
             </div>
@@ -347,44 +387,6 @@
             </div>
           </div>
         </a>
-        <a href="Creative-Brand-Strategy.php">
-          <div class="gallery-itemstwo" data-aos="flip-left">
-            <div class="itemtwo">
-                <div class="item-titletwo">
-                <div class="transparent-backtwo"></div>
-                <div class="title-texttwo">
-                  <p  class="mt-2" style="text-transform: uppercase;">Creative Brand  Strategy</p>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </a> 
-        <a href="Marketing-Analytics.php">
-          <div class="gallery-itemstwo" data-aos="flip-left">
-            <div class="itemtwo">
-                <div class="item-titletwo">
-                <div class="transparent-backtwo"></div>
-                <div class="title-texttwo">
-                  <p  class ="mt-2"style="text-transform: uppercase;">Marketing Analytics</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </a> 
-        <a href="Digital-Transformation.php">
-          <div class="gallery-itemstwo" data-aos="flip-left">
-            <div class="itemtwo">
-                <div class="item-titletwo">
-                <div class="transparent-backtwo"></div>
-                <div class="title-texttwo">
-                  <p class ="mt-2"style="text-transform: uppercase;">Digital Transformation</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </a> 
-
       </div>
     </div>
   </div>
@@ -401,7 +403,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h2 class="upper-heading section-title heading-color " data-aos="fade-down">Business Strategy </h2>
+        <h2 class="upper-heading section-title  heading-color " data-aos="fade-down">Business Strategy </h2>
         <p class="heading-pra pragrp pra-responsive" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
           style="font-family:'Nunito', sans-serif;">We collaborate with businesses to develop customized marketing
           strategies and digital solutions that align with their specific goals and target audience. We analyze market
@@ -410,21 +412,24 @@
         <p class="heading-pra pragrp pra-responsive" data-aos="fade-up" data-aos-delay="100" data-aos="fade-up"
           style="font-family:'Nunito', sans-serif;">Our team combines data-driven insights with creative thinking to
           develop solutions that are both innovative and effective.</p>
-        <ul class="pl-0 service-list" style="line-height: .5;">
-          <li class="list-core " data-aos="fade-up" data-aos-delay="100" style="color: black; font-size:18px"> <i
-              class="ti-layout-tab-window " style="color: black;"></i>  Global
-            Reach
+          <div class="">
+          <ul class="pl-0 service-list" style="line-height: .5;">
+          <li class="list-core flex" data-aos="fade-up" data-aos-delay="100" style="color: black; "> <i
+              class="ti-layout-tab-window" style="color: black;"></i><p class ="mt-1 heading-pra pragrp pra-responsive"style="font-family:'Nunito', sans-serif;">Global
+              Reach</p> 
           </li>
-          <li class="list-core" data-aos="fade-up" data-aos-dOur team combines data-driven insights with creative
-            thinking to develop solutions that are both innovative and effective. elay="200"
-            style="color: black;font-size:18px"><i class="ti-layout-placeholder"
-              style="color:black;font-size:18px"></i>Collaborative
-            Approach</li>
-          <li class="" data-aos="fade-up" data-aos-delay="300" style="color: black; font-size:18px"><i
-              class="ti-support" style="color: black;"></i>Data-Driven
-            Strategies
+          <li class="list-core flex" data-aos="fade-up" data-aos-delay="100" style="color: black; ">
+            <i class="ti-layout-placeholder" style="color:black;"></i><p class="mt-1 heading-pra pragrp pra-responsive"   style="font-family:'Nunito', sans-serif;">Collaborative
+            Approach</p></li>
           </li>
-        </ul>
+          <li class="list-core flex " data-aos="fade-up" data-aos-delay="100" style="color: black; "> <i
+              class="ti-support" style="color:black;"></i><p class="mt-1 heading-pra pragrp pra-responsive"style="font-family:'Nunito', sans-serif;"> Data-Driven
+            Strategies</p>
+          </li>
+        
+          </div>
+          
+         
       </div>
 
     </div>
@@ -456,17 +461,14 @@
           <!-- <div class="content"> -->
           <h2 class="upper-heading  section-title heading-color  " data-aos="fade-down">Why Choose SYNTRA?</h2>
           <p class="heading-pra pragrp " data-aos="fade-up" style="font-family:'Nunito', sans-serif;">At SYNTRA, we
-            understand the intricacies of luxury branding and the importance of maintaining a sophisticated image. Our
-            Clients vary from warehousing, mining, oil and gas companies to analytics consulting firms, investment
-            bankers
-            to coaches to giant luxury brands.
+            excel in merging creativity with data-driven insights to transform brands and drive business growth. Our
+            diverse clientele ranges from high-impact B2B enterprises and innovative startups to renowned luxury brands.
           </p>
           <p class="heading-pra pragra" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">
             Our team of experts is dedicated to providing high-quality, innovative solutions tailored to your brand’s
             unique needs. We take pride in our collaborative approach, working closely with you to ensure your vision is
-            realized and your goals are achieved. Join us on this journey of creative excellence. <strong>Let SYNTRA
-               elevate your brand like never
-              before.</strong>
+            realized and your goals are achieved. Join us on this journey of creative excellence. <strong>Let SYNTRA elevate
+            your brand like never before.</strong>
           </p>
         </div>
       </div>
@@ -484,20 +486,17 @@
       <div class="col-md-5">
         <h2 class=" upper-heading section-title heading-color fs-30" data-aos="fade-down">Why Choose SYNTRA?</h2>
         <p class="heading-pra  pragrp pra-responsive" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">At SYNTRA, we
-          understand the intricacies of luxury branding and the importance of maintaining a sophisticated image. Our
-          Clients vary from warehouse, mining, oil and gas companies to analytics consulting firms, investment bankers
-          to coaches to giant luxury brands.
+          excel in merging creativity with data-driven insights to transform brands and drive business growth. Our
+          diverse clientele ranges from high-impact B2B enterprises and innovative startups to renowned luxury brands.
         </p>
-        <p class="heading-pra  pragrp pra-responsive" data-aos="fade-up" style="font-family:'Nunito', sans-serif;"> Our team of experts
-          is dedicated to providing high-quality, innovative solutions tailored to your brand’s unique needs. We take
-          pride in our collaborative approach, working closely with you to ensure your vision is realized and your goals
-          are achieved. Join us on this journey of creative excellence. <strong>Let SYNTRA help elevate your brand like
-            never
-            before.</strong>
+        <p class="heading-pra  pragrp pra-responsive" data-aos="fade-up" style="font-family:'Nunito', sans-serif;">  Our team of experts is dedicated to providing high-quality, innovative solutions tailored to your brand’s
+          unique needs. We take pride in our collaborative approach, working closely with you to ensure your vision is
+          realized and your goals are achieved. Join us on this journey of creative excellence. <strong>Let SYNTRA elevate
+            your brand like never before.</strong> 
         </p>
       </div>
       <div class="col-md-6">
-        <div class="video-wrapper">
+        <div class="video-container">
           <video autoplay loop muted playsinline>
             <source src="images/syntra-web-video/BALLOONS-2.mp4" type="video/mp4">
 
@@ -536,15 +535,15 @@
           data-modal="modal-1">Let’s
           chat!</button>
       </div>
-      <div class="col-md-6">
-        <div class="seo-image owner-img ">
+      <div class="col-md-6 ">
+        <div class=" owner-img img-container">
           <img style="" class="img-fluid" width="350" src="images/Owner-img/IMG_4709  final.JPG" alt="Owner-img">
           <p style=""> <span style="color: #ff33a3; font-weight:500; font-size :30px ">Apoorva Singh</span>
             <br>CEO,
             The Syntra <br>Ex-McKinsey Consultant
           </p>
-          <button id="contact" class="btn btn-secondary btn-lg mb-5 ml-5 modal-open btnresp responsive-sectiontwo" 
-          data-modal="modal-1">Let’s
+          <button id="contact" class="btn btn-secondary btn-lg mb-5 ml-5 modal-open btnresp responsive-sectiontwo"
+            data-modal="modal-1">Let’s
             chat!</button>
         </div>
 
@@ -614,7 +613,7 @@
         <div class="client-slider">
           <div class="slide"><img src="images/clients-logo/OSIA OSIA LOGO BLACK.png" alt="Osia-Osia"></div>
           <div class="slide"><img src="images/clients-logo/LOGO_00001.png" alt="Osia-Osia"></div>
-          <div class="slide"><img src="images/clients-logo/motorola-logo.png" alt="Osia-Osia"></div>
+          <div class="slide"><img src="images/clients-logo/pngegg.png" alt="Osia-Osia"></div>
           <div class="slide"><img src="images/brand-logo/3.png" alt="The-Power-full-You"></div>
           <div class="slide"><img src="images/clients-logo/LOGO_00002.png" alt="Osia-Osia"></div>
           <div class="slide"><img src="images/clients-logo/LOGO_00000 A.png" alt="Osia-Osia"></div>
@@ -631,26 +630,26 @@
   <div class="container zindex-1">
     <div class="row">
       <div class="col-lg-12 text-center zindex-1">
-        <h2 class="upper-heading heading-color" 
-          style="font-family: 'Poppins', sans-serif;line-height:1;">Social Media
+        <h2 class="upper-heading heading-color" style="font-family: 'Poppins', sans-serif;line-height:1;">Social Media
         </h2>
-        <ul class ="social-icons">
-    <li class ="icons"><a class="icons-color" href="https://www.facebook.com/profile.php?id=61563853857935" target="_blank">
-        <i style ="font-size:3rem;" class="fab fa-facebook"  tabindex="0"></i>
-      </a></li>
-      
-    <li class ="icons"><a class="icons-color" href="https://www.instagram.com/thesyntra/" target="_blank">
-    <i style ="font-size:3rem;" class="fab fa-instagram"></i>
-      </a></li>
-    <li class ="icons"><a class ="icons-color" href="https://www.youtube.com/@the_syntra" target="_blank">
-    <i style ="font-size:2.80rem;" class="fab fa-youtube"></i>
-      </a></li>
-    <li class ="icons"><a class ="icons-color" href="https://www.threads.net/@thesyntra" target="_blank">
-    <i style ="font-size:3rem;" class="fa-brands fa-x-twitter"></i>
+        <ul class="social-icons">
+          <li class="icons"><a class="icons-color" href="https://www.facebook.com/profile.php?id=61563853857935"
+              target="_blank">
+              <i style="font-size:3rem;" class="fab fa-facebook" tabindex="0"></i>
+            </a></li>
+
+          <li class="icons"><a class="icons-color" href="https://www.instagram.com/thesyntra/" target="_blank">
+              <i style="font-size:3rem;" class="fab fa-instagram"></i>
+            </a></li>
+          <li class="icons"><a class="icons-color" href="https://www.youtube.com/@the_syntra" target="_blank">
+              <i style="font-size:2.80rem;" class="fab fa-youtube"></i>
+            </a></li>
+          <li class="icons"><a class="icons-color" href="https://www.threads.net/@thesyntra" target="_blank">
+              <i style="font-size:3rem;" class="fa-brands fa-x-twitter"></i>
 
 
-      </a></li>
-  </ul>
+            </a></li>
+        </ul>
       </div>
     </div>
   </div>

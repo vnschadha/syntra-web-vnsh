@@ -19,23 +19,23 @@
         </div>
       </div>
     </div>
-    <!-- <div class="full-gallerythree">
+    <div class="full-gallerythree">
       <div class="image-gallerythree">
         <div class="circle-wrapperthree gallery-itemsthree">
           <div class="circle circletwo" data-circle="1" data-aos="flip-left">
             <button class="back-button">Back</button>
             <div class="videothree">
-              <video src="images/syntra-web-video/ADV_SMALL.mp4" loop muted>
+              <video src="images/syntra-web-video/WEBSITE-MARKETING ANALYTICS 16-9_1.mp4" loop muted>
               </video>
             </div>
 
             <div class="text">
-              <span class ="mt-5 span-liners" style=""> See The Magic Of Syntra advertisements </span>
+              <span class ="mt-5 span-liners" style=""> See The Magic Of Marketing Analytics </span>
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="col-lg-12 mb-100">
       <!-- <h4 class="text-dark">Information Collection</h4> -->
       <h4 class="text-dark sub-head">Turning Insights into Action

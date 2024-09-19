@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="css/styles_V7.css?v=94215">
   <!-- <link rel="stylesheet" type="text/css" href="styles.css?v=1.0"> -->
   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--Favicon-->
   <link rel="shortcut icon" href="images/01.png" type="image/x-icon">
