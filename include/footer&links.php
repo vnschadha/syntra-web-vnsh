@@ -54,9 +54,9 @@
       <script src="plugins/aos/aos.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <!-- Main Script -->
-      <script src="js/script.js?v=94215"></script>
+      <script src="js/script.js?v=33744"></script>
       <script src="js/pop-video.js"></script>
-      <script src="js/googlesheet.js"></script>
+      <!-- <script src="js/googlesheet.js"></script> -->
 
 
       <script>

@@ -292,7 +292,7 @@ a:hover {
   top: 0;
   left: 0;
   background: #000;
-  opacity: .5;
+  /* opacity: .5; */
 }
 
 .outline-0 {
@@ -2469,8 +2469,8 @@ footer {
 
 .image-gallery .gallery-items {
   margin: 15px;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   /* background:linear-gradient(135deg, rgba(255,51,163,1) 0%, rgba(254,117,43,1) 90%); */
   background-color: #000000;
   color: #fff;
@@ -2817,6 +2817,7 @@ footer {
     font-size: 40px;
   }
 }
+
 
 .hero-section.about-head {
  margin-top: -21%;
@@ -4092,121 +4093,227 @@ ul {
 
 
 /* Contact Form */
-
-.formbold-mb-5 {
-  margin-bottom: 20px;
-}
-
-.formbold-pt-3 {
-  padding-top: 12px;
-}
-
-.formbold-main-wrapper {
-  display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  padding: 48px;
-}
-
-.formbold-form-wrapper {
-  margin: 0 auto;
-  max-width: 990px;
+.form-container {
   width: 100%;
-  background: white;
 }
-
-.formbold-form-label {
-  display: block;
-  font-weight: 500;
-  /* text-align: center; */
-  font-size: 16px;
-  color: #07074d;
-  margin-bottom: 12px;
+.bg-color-yelow {
+  background-color: #f8c325;
+  padding: 15px;
+  border-radius: 12px;
 }
-
-.formbold-form-label-2 {
+.Subbg-color-yelow{ 
+  background-color:#fbe8ae;
+  padding: 11px;
+  border-radius: 12px;
+}
+.btntwo {
   font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  padding: 16px;
+  background-color: #fbe8ae;
 }
-
-.formbold-form-input {
-  width: 100%;
-  padding: 12px 24px;
-  border-radius: 6px;
-  border: 1px solid #e0e0e0;
-  background: white;
-  font-weight: 500;
-  font-size: 16px;
-  color: #6b7280;
-  outline: none;
-  resize: none;
-}
-
-.formbold-form-input:focus {
-  border-color: #6a64f1;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-}
-
-.formbold-btn {
-  text-align: center;
-  font-size: 16px;
-  border-radius: 6px;
-  padding: 14px 32px;
-  border: none;
-  font-weight: 600;
-  background-color: #6a64f1;
-  color: white;
-  width: 100%;
+.heading {
   cursor: pointer;
+font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8c325;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+}
+#paymentCC {
+color:yellow;
+}
+.heading h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  /* font-weight: 500; */
 }
 
-.formbold-btn:hover {
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+.icontwos {
+  transition: transform 0.3s;
 }
 
-.formbold--mx-3 {
-  margin-left: -12px;
-  margin-right: -12px;
+/* Rotate icon when active */
+.active .icontwos {
+  transform: rotate(180deg);
 }
 
-.formbold-px-3 {
-  padding-left: 12px;
-  padding-right: 12px;
+/* Hide the checkbox container by default */
+.checkbox-container {
+  display: none;
+  position: relative;
+  left: 4%;
+  background-color:#fef5e6;
+  border-radius: 20px;
+  /* padding-left: 12px; */
+  padding-top: 12px;
+  font-weight: 600;
+}
+/* display: none;
+
+top: 100%;
+
+flex-wrap: wrap;
+gap: 10px;
+background-color: white;
+padding: 10px;
+border: 1px solid #ddd; */
+
+.heading-container {
+  display: flex;
+  justify-content: space-around;
 }
 
-.flex {
+.checkbox-container {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.active-heading + .checkbox-container {
   display: flex;
 }
 
-.flex-wrap {
+/* Flex container to make checkboxes horizontal */
+.checkbox-container .form-check {
+  display: inline-block;
+  display: flex;
+  margin-right: 15px;
+  
+  
+  
+}
+
+
+/* Hide the checkbox container by default */
+.checkbox-container {
+  display: none;
+}
+
+.checkboxes {
+  display: none;
+  margin-top: 10px;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-.w-full {
-  width: 100%;
+.checkboxes label {
+  margin-right: 15px;
 }
 
-@media (min-width: 540px) {
-  .sm\:w-half {
-    width: 50%;
+@media (min-width: 768px) {
+  .checkboxes {
+    display: flex;
   }
 }
-
-input::placeholder
-
-/* ,
-textarea::placeholder  */
-  {
-  margin-left: -50%;
-  margin-right: -50px;
-  padding: -23px;
+.form_con .user__details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.form_con .user__details .input__box {
+  width: calc(100% / 2 - 20px);
+  margin-bottom: 15px;
 }
 
-.form-logo {
-  margin-left: 1%;
-  text-align: center;
+.user__details .input__box .details {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
 }
+.flex-inputs {
+  display: flex;
+}
+.user__details .input__box input {
+  /* height: 45px; */
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid  gray;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.pere-con {
+  font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 1.3rem;
+}
+#textareaContainer {
+  display: none; /* Initially hidden */
+}
+#toggleTextarea:checked ~ #textareaContainer {
+  display: block; /* Show when checkbox is checked */
+}
+.input-container input {
+  padding: 10px;
+    width: 48%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user__details .input__box input:focus,
+.user__details .input__box input:valid {
+  border-color: var(--main-purple);
+}
+.paymentOptions {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  justify-content: space-between;
+  break-before: always;
+  margin: 0 40% 3em 0;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#purchaseOrder {
+	margin: 0 0 2em 0;
+}
+.flex-option {
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	break-before: always;
+	margin: 0 0 3em 0;
+}
+/* .user-data {
+
+    margin-top: 4%;
+    margin-left: 20px;
+} */
+.sub-headig {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.para-head {
+  font-size: 1rem;
+}
+
+/* Flex container to make checkboxes horizontal */
+
 
 
 /* Body */
@@ -4472,7 +4579,7 @@ ul li {}
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 99;
+  z-index: 9;
 }
 
 .overlay.active {
@@ -4481,21 +4588,18 @@ ul li {}
 
 .modal {
   background-color: #fff;
-  /* border: 10px solid #ccc; */
   box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.25);
   display: none;
   left: calc(50% - 20px);
   margin: 20px;
-  /* max-height: calc(100% - 40px); */
   max-width: 2000px;
   overflow-y: auto;
   position: fixed;
   top: calc(50% - 20px);
   transform: translate(-50%, -50%);
-  width: 90%;
+  width: 98%;
   height: 90%;
-  /* width: calc(100% - 40px); */
-  /* z-index: 100; */
+  
 }
 
 .modal.active {
@@ -4520,25 +4624,8 @@ input::placeholder {
 
 @media (min-width: 146px) and (max-width: 999.98px) {
 
-  .formbold-form-input {
-    width: 100%;
-    padding: 15px 20px;
-    border-radius: 6px;
-    border: 1px solid #e0e0e0;
-    background: white;
-    font-weight: 500;
-    font-size: 16px;
-    color: #6b7280;
-    outline: none;
-    resize: none;
-  }
 
-  input::placeholder,
-  textarea::placeholder {
-    margin-left: -80%;
-    /* margin-right: 70%; */
-    padding: -23px;
-  }
+
 
   .modal-actions {
     /* padding: 0 30px 30px 30px; */

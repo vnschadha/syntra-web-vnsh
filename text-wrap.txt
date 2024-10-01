@@ -1,0 +1,484 @@
+<!--haed links -->
+<?php include"include/head-links.php";?>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<body style=" background-color:#fff;">
+  <!-- End Sticky Navbar -->
+
+  <!-- Responsive Navbar For Other devices -->
+  
+  <!-- hero area -->
+  <form method="post" action="" name="syntra-form">
+
+
+<div class="form-logo mt-5">
+  <a class="" href="#"><img width="130" src="https://thesyntra.com/images/02.png" alt=""></a>
+</div>
+<div class="container mt-5">
+  <div class="col-lg-8 text-center offset-lg-2 ">
+    <div class="section-heading">
+      <h1 class=" head-heading section-title heading-color mt-5 heading-level" data-aos="fade-down">GET IN TOUCH
+      </h1>
+    </div>
+  </div>
+  <div class="form-container">
+
+    <h4 class="text-dark sub-headig ">We’re excited to work with you! Let us know how we can help elevate your
+      brand or
+      business.
+    </h4>
+    <h4 class="text-dark sub-headig bg-color-yelow">Are You?
+    </h4>
+    <div id="paymentContainer" name="paymentContainer" class="paymentOptions Subbg-color-yelow">
+      <div id="payCC" class="floatBlock">
+        <label for="paymentCC"> <input id="paymentCC" name="paymentType" type="radio" value="CREDIT_CARD" />
+          Business </label>
+      </div>
+
+      <div id="payInvoice" class="floatBlock">
+        <label for="paymentInv"> <input id="paymentInv" name="paymentType" type="radio" value="INVOICE" />
+          Entrepreneur
+        </label>
+      </div>
+
+      <div id="pay3rdParty" class="floatBlock">
+        <label for="payment3rd"> <input id="payment3rd" name="paymentType" type="radio" /> Individual </label>
+      </div>
+
+    </div>
+    <h4 class="text-dark sub-headig ">What Services Are You Interested In?</h4>
+    <div class="container mt-4">
+      <!-- <div class="row"> -->
+        <!-- Advertisement Heading -->
+        <div class="col-3 heading" id="heading-1" onclick="toggleSection(1)">
+          <h5>Advertisement</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-1">
+
+          <div class="form-check col-5 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1"> Television Commercials</label>
+            <!-- <div class="col-6 col-md-4 mb-2"><label><input type="checkbox"></label></div> -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1"> Advertisements(3D/2D)Commercials</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1"> Product Demos (2D/3D)</label>
+            <!-- <div class="col-6 col-md-4 mb-2"><label><input type="checkbox"></label></div> -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1"> Corporate AV</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1">Brand Films</label>
+            <!-- <div class="col-6 col-md-4 mb-2"><label><input type="checkbox"></label></div> -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1">Teasers & Trailers</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1">Explainer Videos </label>
+            <!-- <div class="col-6 col-md-4 mb-2"><label><input type="checkbox"></label></div> -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1"> Reel Ads</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1"> Product Showcase Ads</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1">Social Media Ads</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1">Video Ads</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1">Banner Ads</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="adCheck1">
+            <label class="form-check-label" for="adCheck1">Sponsored Content</label>
+            <!-- Add more checkboxes as needed -->
+          </div>
+          <div class="form-check col-6 col-md-8 mb-2">
+            <div id="toggleTextarea">
+              <input class="form-check-input" type="checkbox" id="adCheck1">
+              <label class="" >Other</label>
+            </div>
+            <div id="textareaContainer">
+              <textarea name="" rows="3" cols="50"></textarea>
+            </div>
+            <!-- Add more checkboxes as needed -->
+          </div>
+        </div>
+        <!-- Second Heading -->
+        <div class="col-3 heading" id="heading-2" onclick="toggleSection(2)">
+          <h5>Digital Solutions</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-2">
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck1">
+            <label class="form-check-label" for="secondCheck1">Website Development</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Website App Development</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Mobile App Development</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">UI/UX Design</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Backend API Development</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Digital Transformation for
+              Marketing</label>
+          </div>
+          <!-- Add more checkboxes as needed -->
+        </div>
+        <div class="col-3 heading" id="heading-3" onclick="toggleSection(3)">
+          <h5>Design Services</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-3">
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck1">
+            <label class="form-check-label" for="secondCheck1">Brand Identity & Visual Design</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Graphic Design</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">2D Animations</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">3D Animations</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2"> Illustrations</label>
+          </div>
+          <!-- Add more checkboxes as needed -->
+        </div>
+        <div class="col-3 heading" id="heading-4" onclick="toggleSection(4)">
+          <h5>Social Media Services</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-4">
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck1">
+            <label class="form-check-label" for="secondCheck1">Social Media Management</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Content Creation</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Engagement Strategies</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Social Media Ads</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2"> LinkedIn Marketing</label>
+          </div>
+          <!-- Add more checkboxes as needed -->
+        </div>
+        <div class="col-4 heading" id="heading-5" onclick="toggleSection(5)">
+          <h5>Packaging & Printing Services</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-5">
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck1">
+            <label class="form-check-label" for="secondCheck1"> Product Packaging Design</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Graphic Design</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Corporate Printing <br>(Brochures,
+              Flyers,
+              etc.)</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Custom Printing</label>
+          </div>
+          <!-- Add more checkboxes as needed -->
+        </div>
+        <div class="col-4 heading" id="heading-6" onclick="toggleSection(6)">
+          <h5>Music & Video Production Services</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-6">
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck1">
+            <label class="form-check-label" for="secondCheck1"> Jingles and Brand Anthems</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Background Music for Digital
+              Content</label>
+
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Music Production</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Voiceover Production</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2"> Audio Branding</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2"> Video Editing</label>
+          </div>
+          <!-- Add more checkboxes as needed -->
+        </div>
+        <div class="col-4 heading" id="heading-7" onclick="toggleSection(7)">
+          <h5>Creative Brand Strategy & Positioning</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-7">
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck1">
+            <label class="form-check-label" for="secondCheck1">Brand Audit & Strategy</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Market Research</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Positioning Strategy</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Brand Storytelling</label>
+          </div>
+          <!-- Add more checkboxes as needed -->
+        </div>
+        <div class="col-5 heading" id="heading-8" onclick="toggleSection(8)">
+          <h5>Marketing Analytics & Data Science Solutions</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-8">
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck1">
+            <label class="form-check-label" for="secondCheck1">Data-Driven Marketing Insights</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Marketing Campaign Analytics</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Customer Insights &
+              Segmentation</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Predictive Analytics</label>
+          </div>
+          <!-- <div class="form-check col-6 col-md-4 mb-2">
+              <input class="form-check-input" type="checkbox" id="secondCheck2">
+              <label class="form-check-label" for="secondCheck2"> Illustrations</label>
+          </div> -->
+          <!-- Add more checkboxes as needed -->
+        </div>
+        <div class="col-4 heading" id="heading-9" onclick="toggleSection(9)">
+          <h5>Business Strategy Consulting</h5>
+          <span class="iconstwo"><i class='fas fa-angle-down'></i></span>
+        </div>
+        <div class="checkbox-container" id="section-9">
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck1">
+            <label class="form-check-label" for="secondCheck1"> Marketing Strategy Development</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Positioning Strategy</label>
+          </div>
+          <div class="form-check col-6 col-md-4 mb-2">
+            <input class="form-check-input" type="checkbox" id="secondCheck2">
+            <label class="form-check-label" for="secondCheck2">Growth Strategy Consulting</label>
+          </div>
+          <!-- Add more checkboxes as needed -->
+        </div>
+
+      </div>
+      <!-- Repeat for each heading (1-9) -->
+
+      <h4 class="text-dark sub-headig bg-color-yelow">Preferred Contact Method</h4>
+      <div class="form_con Subbg-color-yelow">
+        <div class="user__details">
+          <div class="input__box">
+            <span class="details">Email</span>
+            <input type="text" name="" id="" placeholder="Enter your email" required />
+          </div>
+          <div class="input__box">
+            <span class="details">Phone Number</span>
+            <input type="text" name="" id="" placeholder="Enter your number" required />
+          </div>
+          <div class="input__box">
+            <span class="details">WhatsApp</span>
+            <input type="text" name="" id="" placeholder="Enter your WhatsApp" required />
+          </div>
+        </div>
+
+        <!-- <div class="input-box">
+ 
+      <span class="details">Password</span>
+  <input type="text" name="" id="" placeholder="Enter your password" required />
+</div> -->
+        <!-- <div class="input-box">
+  <span class="details">Confirm Password</span>
+  <input type="text" name="" id="" placeholder="Confirm your password" required />
+</div> -->
+      </div>
+      <h4 class="text-dark sub-headig bg-color-yelow">How Soon Do You Want to Get Started? </h4>
+      <div id="paymentContainer" name="paymentContainer" class="paymentOptions Subbg-color-yelow">
+        <div id="payCC" class="floatBlock">
+          <label for="paymentCC"> <input id="paymentCC" name="paymentType" type="radio" value="CREDIT_CARD" />
+            Immediately </label>
+        </div>
+
+        <div id="payInvoice" class="floatBlock">
+          <label for="paymentInv"> <input id="paymentInv" name="paymentType" type="radio" value="INVOICE" /> In
+            1-2
+            weeks
+          </label>
+        </div>
+
+        <div id="pay3rdParty" class="floatBlock">
+          <label for="payment3rd"> <input id="payment3rd" name="paymentType" type="radio" /> In 1 month </label>
+        </div>
+        <div id="pay3rdParty" class="floatBlock">
+          <label for="payment3rd"> <input id="payment3rd" name="paymentType" type="radio" /> Just exploring for
+            now
+          </label>
+        </div>
+
+      </div>
+      <div>
+
+      </div>
+      <h4 class="text-dark sub-headig bg-color-yelow">Tell Us About Your Business or Project Goals</h4>
+      <div class="form_con">
+        <textarea class="Subbg-color-yelow" name="" id="" cols="50" rows="2"></textarea>
+        <div class="user__details">
+          <div class="input__box">
+          </div>
+</div>
+<h4 class="text-dark sub-headig bg-color-yelow">Anything Else We Should Know?</h4>
+<div class="form_con">
+  <textarea class ="Subbg-color-yelow" name="" id="" cols="50" rows="2"></textarea>
+        <div class="user__details">
+          <div class="input__box">
+          </div>
+</div>
+      
+      <!-- <button class="btn btn-secondary btn-lg"> </button> -->
+    </div>
+    <input class="btn btn-secondary btn-lg  mb-5" type="submit" value="Wait For The Magic" id="submit">
+  </div>
+</div>
+</div>
+
+</div>
+</form>
+
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+  </script>
+  <script src ="js/googlesheet.js"></script>
+
+    <script>
+  function toggleSection(sectionId) {
+    // Get the currently opened section, if any
+    const openedSection = document.querySelector('.checkbox-container:not([style*="display: none"])');
+    const clickedSection = document.getElementById(`section-${sectionId}`);
+    const clickedHeading = document.getElementById(`headings-${sectionId}`);
+    const allHeadings = document.querySelectorAll('.headings');
+
+    // If there is an opened section and it's not the clicked one, close it
+    if (openedSection && openedSection !== clickedSection) {
+      openedSection.style.display = 'none';
+      allHeadings.forEach(headings => headings.classList.remove('active'));
+    }
+
+    // Toggle the clicked section
+    if (clickedSection.style.display === 'none' || clickedSection.style.display === '') {
+      clickedSection.style.display = 'block';
+      clickedHeading.classList.add('active');
+    } else {
+      clickedSection.style.display = 'none';
+      clickedHeading.classList.remove('active');
+    }
+  }
+</script>
+  <script>
+     const checkbox = document.getElementById('toggleTextarea');
+        const textareaContainer = document.getElementById('textareaContainer');
+
+        checkbox.addEventListener('change', function() {
+            if (this.checked) {
+                textareaContainer.style.display = 'block'; // Show textarea
+            } else {
+                textareaContainer.style.display = 'none'; // Hide textarea
+            }
+        });
+  </script>
+</body>
+
+</html>

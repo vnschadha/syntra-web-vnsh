@@ -2283,7 +2283,8 @@ select.form-control-lg:not([size]):not([multiple]) {
 }
 
 .form-check-input:disabled~.form-check-label {
-          color: #6c757d
+          color: #000000
+          
 }
 
 .form-check-label {

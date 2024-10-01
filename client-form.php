@@ -1,151 +1,15 @@
-<div class="overlay modal-close" onclick="closeModal()"></div>
+<!--haed links -->
+<?php include"include/head-links.php";?>
 
-<div id="modal-1" class="modal">
-  <div class="modal-content">
-    <div class="modal-actions">
-      <button class="modal-close btn">X</button>
-    </div>
-    <form method="post" action="" name="syntra-form" >
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
+<body style=" background-color:#fff;">
+  <!-- End Sticky Navbar -->
 
-    <div class="form-logo mt-5">
-      <a class="" href="#"><img width="76%" src="images/Banner/4.jpg" alt=""></a>
-    </div>
-    <div class="container mt-3">
-      <div class="col-lg-8 text-center offset-lg-2 ">
-        <div class="section-heading">
-          <!-- <h1 class=" head-heading section-title heading-color mt-5 heading-level" data-aos="fade-down">GET IN TOUCH
-          </h1> -->
-        </div>
-      </div>
-      <div class="form-container">
+  <!-- Responsive Navbar For Other devices -->
 
-        <h4 class="text-dark sub-headig " style="font-weight: 600;">We’re excited to work with you! Let us know how we can help elevate your
-          brand or
-          business.
-        </h4>
-        <h4 class="text-dark sub-headig bg-color-yelow" style="font-weight: 600;">1).Are You?
-        </h4>
-        <div id="paymentContainer" name="paymentContainer" class="paymentOptions Subbg-color-yelow">
-          <div id="payCC" class="sub-headig">
-            <label for="paymentCC"> <input id="paymentCC" name="paymentType" type="radio" value="CREDIT_CARD" class="sub-headig" />
-              Business </label>
-          </div>
-
-          <div id="payInvoice" class="sub-headig">
-            <label for="paymentInv"> <input id="paymentInv" name="paymentType" type="radio" value="INVOICE" />
-              Entrepreneur
-            </label>
-          </div>
-
-          <div id="pay3rdParty" class="sub-headig">
-            <label for="payment3rd"> <input id="payment3rd" name="paymentType" type="radio" /> Individual </label>
-          </div>
-
-        </div>
-
-        <h4 class="text-dark sub-headig bg-color-yelow "style="font-weight: 600;">2).What Services Are You Interested In?</h4>
-        <div class=" mt-3">
-    <div class="heading-item">
-      <input type="checkbox" id="ad-heading" class="heading-checkbox">
-      <label for="ad-heading" class="btntwo" >Business Strategy Consulting
-      </label>
-      <div class="checkbox-container" id="section-9">
-        <div class="form-check col-6 col-md-4 mb-2 ml-4">
-          <input class="form-check-input" type="checkbox" id="secondCheck1">
-          <label class="form-check-label" for="secondCheck1"> Marketing Strategy Development</label>
-        </div>
-        <div class="form-check col-6 col-md-3 mb-2 ml-4">
-          <input class="form-check-input" type="checkbox" id="secondCheck2">
-          <label class="form-check-label" for="secondCheck2">Positioning Strategy</label>
-        </div>
-        <div class="form-check col-6 col-md-3 mb-2 ml-4">
-          <input class="form-check-input" type="checkbox" id="secondCheck2">
-          <label class="form-check-label" for="secondCheck2">Growth Strategy Consulting</label>
-        </div>
-        <!-- Add more checkboxes as needed -->
-      </div>
-    </div>
-    </div>
-
-    <div class="mt-3">
-  <div class="heading-item">
-    <input type="checkbox" id="ad-heading" class="heading-checkbox">
-    <label for="ad-heading" class="btntwo">Advertisement</label>
-
-    <!-- Checkbox container divided into three columns -->
-    <div class="checkbox-container row ">
-      
-      <!-- First column -->
-      <div class="col-md-4">
-        <div class="form-check mb-2 ml-4">
-          <input class="form-check-input" type="checkbox" id="adCheck1">
-          <label class="form-check-label" for="adCheck1">Television Commercials</label>
-        </div>
-        <div class="form-check mb-2 ml-4">
-          <input class="form-check-input" type="checkbox" id="adCheck2">
-          <label class="form-check-label" for="adCheck2">Advertisements (3D/2D) Commercials</label>
-        </div>
-        <div class="form-check mb-2 ml-4">
-          <input class="form-check-input" type="checkbox" id="adCheck3">
-          <label class="form-check-label" for="adCheck3">Product Demos (2D/3D)</label>
-        </div>
-        <div class="form-check mb-2 ml-4">
-          <input class="form-check-input" type="checkbox" id="adCheck4">
-          <label class="form-check-label" for="adCheck4">Corporate AV</label>
-        </div>
-      </div>
-
-      <!-- Second column -->
-      <div class="col-md-3">
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck5">
-          <label class="form-check-label" for="adCheck5">Brand Films</label>
-        </div>
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck6">
-          <label class="form-check-label" for="adCheck6">Teasers & Trailers</label>
-        </div>
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck7">
-          <label class="form-check-label" for="adCheck7">Explainer Videos</label>
-        </div>
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck8">
-          <label class="form-check-label" for="adCheck8">Reel Ads</label>
-        </div>
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck13">
-          <label class="form-check-label" for="adCheck13">Sponsored Content</label>
-        </div>
-      </div>
-
-      <!-- Third column -->
-      <div class="col-md-4">
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck9">
-          <label class="form-check-label" for="adCheck9">Product Showcase Ads</label>
-        </div>
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck10">
-          <label class="form-check-label" for="adCheck10">Social Media Ads</label>
-        </div>
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck11">
-          <label class="form-check-label" for="adCheck11">Video Ads</label>
-        </div>
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="adCheck12">
-          <label class="form-check-label" for="adCheck12">Banner Ads</label>
-        </div>
-
-        <!-- Other checkbox with textarea -->
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="toggleTextarea">
-          <label class="form-check-label" for="toggleTextarea">Other</label>
-        </div>
-        <div id="textareaContainer" style="display: none;">
-          <textarea rows=" <form method="post" action="" >
+  <!-- hero area -->
+  <form method="post" action="" >
 
 
     <div class="form-logo mt-5">
@@ -647,10 +511,8 @@
     </div>
   </form>
 
-
-</div>
-</div>
-<script>
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+  <script>
     $(window).scroll(function () {
       if ($(document).scrollTop() > 50) {
         $('.nav').addClass('affix');
@@ -706,7 +568,9 @@
     }
 
   </script>
+</body>
 
+</html>
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);

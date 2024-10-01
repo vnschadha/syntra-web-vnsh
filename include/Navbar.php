@@ -3,19 +3,11 @@
 <!-- " -->
 
   <!-- Side Sticky navbar -->
-  <div class="bg-cover " class="none"></div>
-  <!-- <div class="prompt">Click</div> -->
+  <div class="bg-cover" class="none"></div>
   <a class="hamburger-shell ">
     <div class="hamb top"></div>
     <div class="hamb middle"></div>
-    <!-- <div class="menu-name">MENU</div> -->
-
     <ul id="menu">
-    <!-- <li > <a href="index.php" ><img style="margin-top: -390%;" width="130" src="https://thesyntra.com/images/02.png" alt=""></a></li> -->
-      <!-- <a href="index.h">
-
-        <li> <a href="index.php"><img width="130" src="https://thesyntra.com/images/02.png" alt=""></a></li>
-      </a> -->
       <a href="index.php#about"> 
         <li >About Us</li>
       </a>
@@ -24,9 +16,6 @@
       </a> <a href="projects.php">
         <li>Projects</li>
       </a>
-
-      <!-- <a href="#"> <li>Services</li></a> -->
-      <!-- <a href="#"> <li>Contact</li></a> -->
       <button class="btn btn-primary ml-lg-3 primary-shadow modal-open " data-modal="modal-1">Get In Touch</button>
 
     </ul>

@@ -332,10 +332,6 @@ var videoElement = document.getElementById('videoPlayer');
     sourceElement.src = 'images/syntra-web-video/Balloons_ALPHA.webm';
     sourceElement.type = 'video/webm';
   }
-
- 
-
-
   videoElement.appendChild(sourceElement);
   videoElement.load();
 
@@ -371,3 +367,15 @@ var videoElement = document.getElementById('videoPlayer');
   }
   videoElement.appendChild(sourceElement);
   videoElement.load();
+
+  // form check box
+//   function toggleSection(sectionId) {
+//     const section = document.getElementById(sectionId);
+
+   
+//     if (section.style.display === 'none' || section.style.display === '') {
+//         section.style.display = 'flex'; 
+//     } else {
+//         section.style.display = 'none'; 
+//     }
+// }
