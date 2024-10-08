@@ -31,19 +31,19 @@
         <h4 class="text-dark sub-headig bg-color-yelow" style="font-weight: 600;">1) Are You?
         </h4>
         <div id="paymentContainer" name="paymentContainer" class="paymentOptions Subbg-color-yelow">
-          <div id="payCC" class="sub-headig">
+          <div id="payCC" class="sub-headi">
             <label for="paymentCC"> <input id="paymentCC" name="Profiles" type="radio" value="Business"
-                class="sub-headig"  required/>
+                class="sub-headi"  required/>
               Business </label>
           </div>
 
-          <div id="payInvoice" class="sub-headig">
+          <div id="payInvoice" class="sub-headi">
             <label for="paymentInv"> <input id="paymentInv" name="Profiles" type="radio" value="Entrepreneur" required/>
               Entrepreneur
             </label>
           </div>
 
-          <div id="pay3rdParty" class="sub-headig">
+          <div id="pay3rdParty" class="sub-headi">
             <label for="payment3rd"> <input id="payment3rd" name="Profiles" type="radio" value="Individual" required /> Individual </label>
           </div>
           
@@ -54,7 +54,7 @@
           In?</h4>
         <div class=" mt-3">
           <div class="heading-item">
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Business Strategy Consulting</label>
             <div class="checkbox-container row">
               <div class="form-check col-6 col-md-4 mb-2 ml-4">
@@ -62,7 +62,7 @@
                  value="Marketing_Strategy_Development" type="checkbox" id="secondCheck1" >
                 <label class="form-check-label" for="secondCheck1"> Marketing Strategy Development</label>
               </div>
-              <div class="form-check col-6 col-md-3 mb-2 ml-4">
+              <div class="form-check col-6 col-md-4 mb-2 ml-4">
                 <input class="form-check-input" name="BusinessStrategy[]" value="Positioning_Strategy" type="checkbox" id="secondCheck2">
                 <label class="form-check-label" for="secondCheck2">Positioning Strategy</label>
               </div>
@@ -77,7 +77,7 @@
 
         <div class="mt-3">
           <div class="heading-item">
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Advertisement</label>
 
             <!-- Checkbox container divided into three columns -->
@@ -159,35 +159,37 @@
           </div>
         </div>
 
-
-
         <div class="mt-3">
           <div class="heading-item">
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Creative Brand Strategy & Positioning</label>
 
             <div class="checkbox-container row" id="section-7">
               <!-- First Checkbox -->
               <div class="form-check col-6 col-md-3 mb-2 ml-4">
-                <input class="form-check-input" name="CreativeBrandStrategy[]" type="checkbox" value="Brand_Audit &_Strategy"  id="secondCheck1" >
+                <input class="form-check-input" name="CreativeBrandStrategy[]" type="checkbox" 
+                value="Brand_Audit &_Strategy"  id="secondCheck1" >
                 <label class="form-check-label" for="secondCheck1">Brand Audit & Strategy</label>
               </div>
 
               <!-- Second Checkbox -->
-              <div class="form-check col-6 col-md-2 mb-2 ml-4">
-                <input class="form-check-input" name="CreativeBrandStrategy[]" type="checkbox" value="Market_Research" id="secondCheck2" >
+              <div class="form-check col-6 col-md-5 mb-2 ml-4">
+                <input class="form-check-input" name="CreativeBrandStrategy[]" type="checkbox" 
+                value="Market_Research" id="secondCheck2" >
                 <label class="form-check-label" for="secondCheck2">Market Research</label>
               </div>
 
               <!-- Third Checkbox -->
-              <div class="form-check col-6 col-md-2 mb-2 ml-4">
-                <input class="form-check-input"name="CreativeBrandStrategy[]" type="checkbox" value="Positioning_Strategy" id="secondCheck3" >
+              <div class="form-check col-6 col-md-3 mb-2 ml-4">
+                <input class="form-check-input"name="CreativeBrandStrategy[]" type="checkbox" 
+                value="Positioning_Strategy" id="secondCheck3" >
                 <label class="form-check-label" for="secondCheck3">Positioning Strategy</label>
               </div>
 
               <!-- Fourth Checkbox -->
               <div class="form-check col-6 col-md-3 mb-2 ml-4">
-                <input class="form-check-input" name="CreativeBrandStrategy[]" type="checkbox" value="Brand_Storytelling" id="secondCheck4">
+                <input class="form-check-input" name="CreativeBrandStrategy[]" type="checkbox" 
+                value="Brand_Storytelling" id="secondCheck4">
                 <label class="form-check-label" for="secondCheck4">Brand Storytelling</label>
               </div>
 
@@ -195,10 +197,9 @@
           </div>
         </div>
 
-
         <div class=" mt-3">
           <div class="heading-item">
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Digital Solutions</label>
             <div class="checkbox-container" id="section-2">
               <div class="form-check col-6 col-md-3 mb-2 ml-4">
@@ -232,11 +233,10 @@
           </div>
         </div>
 
-
         <div class=" mt-3">
           <div class="heading-item">
 
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Marketing Analytics & Data Science Solutions</label>
             <div class="checkbox-container" id="section-8">
               <div class="form-check col-6 col-md-5 mb-2 ml-4">
@@ -271,7 +271,7 @@
         </div>
         <div class=" mt-3">
           <div class="heading-item">
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Design Services</label>
             <div class="checkbox-container" id="section-3">
               <div class="form-check col-12 col-md-4 mb-2 ml-4">
@@ -305,7 +305,7 @@
         <div class=" mt-3">
           <div class="heading-item">
 
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Packaging & Printing Services</label>
             <div class="checkbox-container" id="section-5">
               <div class="form-check col-6 col-md-3 mb-2 ml-4">
@@ -337,7 +337,7 @@
         </div>
         <div class=" mt-3">
           <div class="heading-item"> 
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Social Media Services</label>
             <div class="checkbox-container" id="section-4">
               <div class="form-check col-6 col-md-3 mb-2 ml-4">
@@ -367,7 +367,7 @@
         <div class=" mt-3">
           <div class="heading-item">
 
-            <input type="checkbox" id="ad-heading" class="heading-checkbox" required>
+            <input type="checkbox" id="ad-heading" class="heading-checkbox" >
             <label for="ad-heading" class="btntwo">Music & Video Production Services</label>
             <div class="checkbox-container" id="section-6">
               <div class="form-check col-6 col-md-3 mb-2 ml-5">
@@ -446,44 +446,44 @@
 
         <h4 class="text-dark sub-headig bg-color-yelow" style="font-weight: 600;">4) How Soon Do You Want to Get
           Started? </h4>
-          <div id="paymentContainer" name="paymentContainer" class="paymentOptions Subbg-color-yelow">
-  <div class="d-flex flex-wrap align-items-center">
-    <!-- First radio button -->
-    <div id="payCC" class="mr-3 sub-headig">
-      <label for="paymentCC">
-        <input id="paymentCC" name="get_Started" type="radio" value="Immediately" required />
-        Immediately
-      </label>
-    </div>
+          <div id="paymentContainer" name="paymentContainer" class="paymentOptionsTwo Subbg-color-yelow">
+            <!-- <div class="d-flex flex-wrap align-items-center"> -->
+              <!-- First radio button -->
+              <div id="payCC" class="sub-headi">
+                <label for="paymentCC">
+                  <input id="paymentCC" name="get_Started" type="radio" value="Immediately" required />
+                  Immediately
+                </label>
+              </div>
 
-    <!-- Second radio button -->
-    <div id="payInvoice" class="mr-3 sub-headig">
-      <label for="paymentInv">
-        <input id="paymentInv" name="get_Started" type="radio" value="In 1-2 weeks" required />
-        In 1-2 weeks
-      </label>
-    </div>
+              <!-- Second radio button -->
+              <div id="payInvoice" class="sub-headi">
+                <label for="paymentInv">
+                  <input id="paymentInv" name="get_Started" type="radio" value="In 1-2 weeks" required />
+                  In 1-2 weeks
+                </label>
+              </div>
 
-    <!-- Third radio button -->
-    <div id="pay3rdParty" class="mr-3 sub-headig">
-      <label for="payment3rd">
-        <input id="payment3rd" name="get_Started" type="radio" value="In 1 month" />
-        In 1 month
-      </label>
-    </div>
+              <!-- Third radio button -->
+              <div id="pay3rdParty" class="sub-headi">
+                <label for="payment3rd">
+                  <input id="payment3rd" name="get_Started" type="radio" value="In 1 month" />
+                  In 1 month
+                </label>
+              </div>
 
-    <!-- Fourth radio button -->
-    <div id="payExploring" class="mr-3 sub-headig">
-      <label for="paymentExploring">
-        <input id="paymentExploring" name="get_Started" type="radio" value="Just exploring for now" required />
-        Just exploring for now
-      </label>
-    </div>
-  </div>
-</div>
+              <!-- Fourth radio button -->
+              <div id="payExploring" class="sub-headi">
+                <label for="paymentExploring">
+                  <input id="paymentExploring" name="get_Started" type="radio" value="Just exploring for now"
+                    required />
+                  Just exploring for now
+                </label>
+              </div>
+            </div>
+          </div>
 
 
- 
         <h4 class="text-dark sub-headig bg-color-yelow" style="font-weight: 600;">5) Tell Us About Your Business or
           Project Goals</h4>
         <div class="form_con">

@@ -379,3 +379,4 @@ var videoElement = document.getElementById('videoPlayer');
 //         section.style.display = 'none'; 
 //     }
 // }
+

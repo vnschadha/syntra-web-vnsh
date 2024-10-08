@@ -66,7 +66,7 @@
       </p> -->
     
     </div>
-   <center> <a href="index.php#service" class="btn btn-secondary button-bottom btn-lg ml-5" data-aos="fade-down">Explore Other Services</a><center>
+   <center> <a href="index.php#service" class="btn btn-secondary button-bottom btn-lg ml-5 mb-5" data-aos="fade-down">Explore Other Services</a><center>
 </section>
 
 <!-- <section class="section-lg about pb-0" style="margin-top: 15%;">

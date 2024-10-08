@@ -2,7 +2,7 @@
       <footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
   <div class="container">
     <div class="row">
-      <div class="col-lg-1 text-center text-lg-left mb-4 mb-lg-0">
+      <div class="col-lg-1 text-center text-lg-left  mb-lg-0">
         <!-- logo -->
         <!-- <a href="index.html">
           <img class="img-fluid" src="images/logo.png" alt="logo">

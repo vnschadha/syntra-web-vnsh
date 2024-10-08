@@ -27,7 +27,7 @@
   <nav class="nav">
     <div class="containaar">
       <div class="logo">
-        <a href="index.php"><img width="130" src="https://thesyntra.com/images/02.png" alt="logo"></a>
+        <a href="index.php"><img  src="https://thesyntra.com/images/02.png" alt="logo"></a>
       </div>
       <div id="mainListDiv" class="main_list mb-4">
         <ul class="navlinks">
@@ -36,7 +36,7 @@
           <li><a href="projects.php">Projects</a></li>
           <li> -->
             </li>
-            <button class="btn btn-primary ml-lg-3 primary-shadow modal-open btnrespo" data-modal="modal-1">
+            <button class="btn btn-secondary ml-lg-3 primary-shadow modal-open btnrespo" data-modal="modal-1">
               Get In Touch 
             </button>
           </ul>
@@ -53,7 +53,7 @@
         <li><a href="index.php#service">Services</a></li>
         <li><a href="projects.php">Projects</a></li>
         <li>
-          <button class="btn btn-primary ml-lg-3 primary-shadow bottom-btn modal-open ml-4" data-modal="modal-1"><span style= "font-size:1.6rem"> Get In Touch</span></button>
+          <button class="btn btn-primary  primary-shadow bottom-btn modal-open ml-5 " data-modal="modal-1"> Get In Touch</button>
         </li>
       </ul>
     </div>
